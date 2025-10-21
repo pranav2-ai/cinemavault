@@ -1481,6 +1481,171 @@ const MOVIES = [
     "Filmfare Award for Best Film – Telugu",
     "Critical acclaim for performances and cinematography"
   ]
+},
+{
+  id: 108,
+  title: "Theeran Adhigaaram Ondru",
+  year: 2017,
+  rating: 8.2,
+  genres: ["Action", "Crime", "Thriller", "Tamil"],
+  overview:
+    "Based on true events, the film follows a dedicated police officer who investigates a series of brutal dacoity crimes that span across India.",
+  poster: "https://a.ltrbxd.com/resized/film-poster/3/8/8/2/1/3/388213-theeran-adhigaram-ondru-0-460-0-690-crop.jpg?k=7f110467ff",
+  ott: [
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/Theeran-Adhigaaram-Ondru/0Q38D8TBW09T13EYE8P2XG0X0S"
+    }
+  ],
+  director: "H. Vinoth",
+  music: "Ghibran",
+  awards: [
+    "Critically acclaimed for its realism and performances",
+    "Based on Operation Bawaria case"
+  ]
+},
+{
+  id: 109,
+  title: "Mankatha",
+  year: 2011,
+  rating: 7.6,
+  genres: ["Action", "Thriller", "Crime", "Tamil"],
+  overview:
+    "A suspended cop leads a group of criminals to pull off a heist involving illegal betting money, but betrayal and greed soon turn them against each other.",
+  poster: "https://m.media-amazon.com/images/M/MV5BZjEwYjkxZGEtMjZlMy00MDZhLTk0MWYtNDY0NTZiNmZkM2Q4XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_UY1200_CR138,0,630,1200_AL_.jpg",
+  ott: [
+    {
+      platform: "sunnxt",
+      url: "https://www.sunnxt.com/tamil-movie-mankatha-2011/detail/6953"
+    }
+  ],
+  director: "Venkat Prabhu",
+  music: "Yuvan Shankar Raja",
+  awards: ["Commercial blockbuster", "Praised for Ajith’s negative role"]
+},
+{
+  id: 110,
+  title: "Ghajini",
+  year: 2005,
+  rating: 8.1,
+  genres: ["Action", "Thriller", "Romance", "Tamil"],
+  overview:
+    "A man suffering from short-term memory loss sets out to avenge the murder of his lover, marking a milestone in Tamil action cinema.",
+  poster: "https://m.media-amazon.com/images/M/MV5BOGRhMmZjYzAtOGM3YS00NzZjLWFiZGEtNzk5ZmJjMmUxZWU4XkEyXkFqcGc@._V1_.jpg",
+  ott: [
+    {
+      platform: "sunnxt",
+      url: "https://www.sunnxt.com/tamil-movie-ghajini-tamil-2005/detail/8848"
+    }
+  ],
+  director: "A. R. Murugadoss",
+  music: "Harris Jayaraj",
+  awards: ["One of the highest-grossing Tamil films of 2005"]
+},
+{
+  id: 111,
+  title: "Sathuranga Vettai",
+  year: 2014,
+  rating: 8.3,
+  genres: ["Crime", "Thriller", "Drama", "Tamil"],
+  overview:
+    "A brilliant con artist executes multiple scams for money, only to face the consequences of his greed and deception.",
+  poster: "https://static.moviecrow.com/gallery/20140718/38952-sathuranga-vettai-2.png",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/movies/sathuranga-vettai/1000058080"
+    },
+    {
+      platform: 'youtube',
+      url: 'https://youtu.be/jSpM5bi6aRg?si=2P1r1Wjl_uMVpvti'
+    }
+  ],
+  director: "H. Vinoth",
+  music: "Sean Roldan",
+  awards: ["National Film Award – Special Jury Award (Producer Thirrupathi Brothers)"]
+},
+{
+  id: 112,
+  title: "Kuttram 23",
+  year: 2017,
+  rating: 7.4,
+  genres: ["Crime", "Thriller", "Action", "Tamil"],
+  overview:
+    "An earnest police officer investigates a case involving medical crimes and corruption, leading to shocking revelations.",
+  poster: "https://m.media-amazon.com/images/M/MV5BNDViZDQzOGEtOTdiYS00ZGYxLTk0ZjgtNTk3NTg0NDNiM2M0XkEyXkFqcGc@._V1_.jpg",
+  ott: [
+    {
+      platform: "zee5",
+      url: "https://www.zee5.com/movies/details/kuttram-23/0-0-6832"
+    },
+    {
+      platform: 'youtube',
+      url: 'https://youtu.be/bSZHx5xQrK4?si=GiCv0TYmz0knUP2D'
+    }
+  ],
+  director: "Arivazhagan Venkatachalam",
+  music: "Vishal Chandrashekhar",
+  awards: ["Praised for Arun Vijay’s performance and taut screenplay"]
+},
+
+{
+  id: 113,
+  title: "Dhuruvangal Pathinaaru",
+  year: 2016,
+  rating: 8.6,
+  genres: ["Crime", "Thriller", "Mystery", "Tamil"],
+  overview:
+    "A retired police officer revisits a complex murder case that has haunted him, leading to shocking twists and revelations.",
+  poster: "https://files.prokerala.com/movies/pics/800/dhuruvangal-pathinaaru-100-days-poster-68139.jpg",
+  ott: [
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/Dhruvangal-Pathinaru/0NLP21YPG8DTVVTZU8OM6BCTHY"
+    },
+    
+  ],
+  director: "Karthick Naren",
+  music: "Ghibran",
+  awards: ["Critical acclaim for screenplay and R. Sarathkumar’s performance"]
+},
+{
+  id: 114,
+  title: "Imaikkaa Nodigal",
+  year: 2018,
+  rating: 8.0,
+  genres: ["Thriller", "Crime", "Mystery", "Tamil"],
+  overview:
+    "A relentless CBI officer tracks a serial killer who leaves behind cryptic clues, leading to a tense cat-and-mouse game.",
+  poster: "https://www.gethucinema.com/wp-content/uploads/2017/05/Imaikkaa-Nodigal-poster.jpg",
+  ott: [
+    {
+      platform: "youtube",
+      url: "https://youtu.be/1IOSCD9MXp8?si=6IdUeE-iGClUrxJ8"
+    }
+  ],
+  director: "R. Ajay Gnanamuthu",
+  music: "Ghibran",
+  awards: ["Praised for Nayanthara’s performance and suspenseful direction"]
+},
+{
+  id: 115,
+  title: "Thani Oruvan",
+  year: 2015,
+  rating: 8.4,
+  genres: ["Action", "Thriller", "Crime", "Tamil"],
+  overview:
+    "An honest police officer takes on a brilliant and cunning corporate criminal, leading to a high-stakes battle of wits and strategy.",
+  poster: "https://alchetron.com/cdn/Thani-Oruvan-images-629ebc78-d649-4061-9abc-12ac4badf71.jpg",
+  ott: [
+    {
+      platform: "sunnxt",
+      url: "https://www.sunnxt.com/tamil-movie-thani-oruvan-2015/detail/7191"
+    }
+  ],
+  director: "M. Saravanan",
+  music: "Harris Jayaraj",
+  awards: ["Filmfare Award for Best Actor – Jayam Ravi"]
 }
 
 ];
