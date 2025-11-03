@@ -1648,8 +1648,8 @@ const MOVIES = [
       url: "https://www.sunnxt.com/tamil-movie-thani-oruvan-2015/detail/7191"
     }
   ],
-  director: "Mohan Raja",
-  music: "Hiphop Tamizha",
+  director: "	Mohan Raja",
+  music: "	Hiphop Tamizha",
   awards: ["Filmfare Award for Best Actor – Jayam Ravi"]
 },
 {
@@ -1719,7 +1719,207 @@ const MOVIES = [
   director: "Dhanush",
   music: "G. V. Prakash Kumar",
   awards: []
-}
+},
+{
+  id: 120,
+  title: "Chak De! India",
+  year: 2007,
+  rating: 8.2,
+  genres: ["Sports", "Drama", "Hindi"],
+  overview:
+    "A disgraced hockey player redeems himself by coaching the Indian women's national team to world championship glory, inspiring unity and perseverance.",
+  poster: "https://image.tmdb.org/t/p/original/mmFMgEsTRCAGAtwffGpuo3mJsxN.jpg",
+  ott: [
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/Chak-De-India/0ST8IWCMUO5NMQM3413WKVMWQS"
+    },
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/70077853"
+    }
+  ],
+  director: "Shimit Amin",
+  music: "Salim–Sulaiman",
+  awards: ["National Film Award for Best Popular Film Providing Wholesome Entertainment"]
+},
+{
+  id: 121,
+  title: "Dilwale Dulhania Le Jayenge",
+  year: 1995,
+  rating: 8.1,
+  genres: ["Romance", "Drama", "Musical", "Hindi"],
+  overview:
+    "Raj and Simran, two young NRIs, fall in love during a trip to Europe. Their journey of love, family, and tradition redefined Indian cinema forever.",
+  poster: "https://m.media-amazon.com/images/M/MV5BMDQ2ZmE2NTMtZDE3NC00YzFjLWJhNmEtMDEzMTI5ZjU2ZGM0XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_FMjpg_UX1000_.jpg",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/60036747"
+    }
+  ],
+  director: "Aditya Chopra",
+  music: "Jatin–Lalit",
+  awards: ["10 Filmfare Awards including Best Film and Best Actor"]
+},
+{
+  id: 122,
+  title: "Jawan",
+  year: 2023,
+  rating: 7.8,
+  genres: ["Action", "Thriller", "Drama", "Hindi"],
+  overview:
+    "A vigilante with a mysterious past sets out to right the wrongs in society while confronting his father’s legacy in this high-octane action spectacle.",
+  poster: "https://akm-img-a-in.tosshub.com/indiatoday/styles/medium_crop_simple/public/2023-08/f4xheqga4aafzei.jpg?VersionId=V.bhgb1YuEsJJ9kqcXpG0almVkeG6ktj&size=750:*",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/81728124"
+    }
+  ],
+  director: "Atlee",
+  music: "Anirudh Ravichander",
+  awards: ["Blockbuster hit and major critical acclaim for Shah Rukh Khan"]
+},
+{
+  id: 123,
+  title: "Dil Se..",
+  year: 1998,
+  rating: 7.9,
+  genres: ["Romance", "Thriller", "Drama", "Hindi"],
+  overview:
+    "A radio journalist falls deeply in love with a mysterious woman hiding a dark secret, leading to a haunting tale of love and tragedy.",
+  poster: "https://image.tmdb.org/t/p/original/rCoGw9cp0EY2Rd504iqqjSDtepF.jpg",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/17671454"
+    }
+  ],
+  director: "Mani Ratnam",
+  music: "A. R. Rahman",
+  awards: ["National Film Award for Best Cinematography", "Filmfare Award for Best Music Director"]
+},
+{
+  id: 124,
+  title: "Ra.One",
+  year: 2011,
+  rating: 6.0,
+  genres: ["Action", "Sci-Fi", "Superhero", "Hindi"],
+  overview:
+    "A video game designer’s creation turns against him when a powerful AI villain escapes into the real world. A father must transform into a hero to save his son.",
+  poster: "https://c8.alamy.com/comp/E5MMRH/ra-one-shah-rukh-khan-on-indian-poster-in-english-2011-eros-internationalcourtesy-E5MMRH.jpg",
+  ott: [
+    {
+      platform: "",
+      url: ""
+    }
+  ],
+  director: "Anubhav Sinha",
+  music: "Vishal–Shekhar",
+  awards: ["National Film Award for Best Special Effects"]
+},
+{
+  id: 125,
+  title: "Sholay",
+  year: 1975,
+  rating: 8.2,
+  genres: ["Action", "Adventure", "Drama", "Hindi"],
+  overview:
+    "Two ex-convicts are hired by a retired police officer to capture a ruthless bandit, Gabbar Singh. This timeless classic defined the modern Indian action film.",
+  poster: "https://image.tmdb.org/t/p/original/ya9bwgqA4eNl5bQ9QqS0jcmRoBS.jpg",
+  ott: [
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/Sholay/0LPKHVZ3CQXGVLYM6Z0AOH77QJ"
+    },
+    {
+      platform: 'youtube',
+      url: "https://youtu.be/_mMgACjwbOU?si=etyUCeDQWGduBUOc"
+    }
+  ],
+  director: "Ramesh Sippy",
+  music: "R. D. Burman",
+  awards: ["Filmfare Award for Best Editing", "One of the greatest Indian films of all time"]
+},
+{
+  id: 126,
+  title: "Mera Naam Joker",
+  year: 1970,
+  rating: 7.6,
+  genres: ["Drama", "Romance", "Musical", "Hindi"],
+  overview:
+    "An emotional journey of a clown who brings laughter to others while struggling with heartbreak and loneliness throughout his life.",
+  poster: "https://image.tmdb.org/t/p/original/8NkLtovLUufV09WYHztBO8vkSSY.jpg",
+  ott: [
+    {
+      platform: "zee5",
+      url: "https://www.zee5.com/movies/details/mera-naam-joker/0-0-6713"
+    }
+  ],
+  director: "Raj Kapoor",
+  music: "Shankar–Jaikishan",
+  awards: ["Filmfare Award for Best Director", "Cult classic in Indian cinema"]
+},
+{
+  id: 127,
+  title: "Dangal",
+  year: 2016,
+  rating: 8.4,
+  genres: ["Biography", "Drama", "Sports", "Hindi"],
+  overview:
+    "Based on the true story of Mahavir Singh Phogat, who trains his daughters to become world-class wrestlers and bring glory to India.",
+  poster: "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg",
+  ott: [
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/Dangal/0IIOG10OTQ7YE1RZ3I202LHQUB"
+    }
+  ],
+  director: "Nitesh Tiwari",
+  music: "Pritam",
+  awards: ["National Film Award for Best Popular Film", "Highest-grossing Indian film worldwide"]
+},
+{
+  id: 128,
+  title: "Taare Zameen Par",
+  year: 2007,
+  rating: 8.4,
+  genres: ["Drama", "Family", "Hindi"],
+  overview:
+    "An eight-year-old boy with dyslexia struggles at school until an art teacher helps him discover his hidden potential and creativity.",
+  poster: "https://image.tmdb.org/t/p/original/3bciPfmZvGhdOsIpDvVSpltGQCo.jpg",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www2.stage.netflix.com/in/title/70087087"
+    },
+    {
+      platform: 'youtube',
+      url: ''
+    }
+  ],
+  director: "Aamir Khan",
+  music: "Shankar–Ehsaan–Loy",
+  awards: ["Filmfare Award for Best Film", "National Film Award for Best Film on Family Welfare"]
+},
+{
+  id: 129,
+  title: "Sitaare Zameen Par",
+  year: 2025,
+  rating: 6.9,
+  genres: ["Drama", "Family", "Hindi"],
+  overview:
+    "A spiritual successor to 'Taare Zameen Par', Aamir Khan’s upcoming film explores empathy, inclusion, and understanding through a new lens focused on neurodiverse children.",
+  poster: "https://tse1.mm.bing.net/th/id/OIP.Icjo0QU2OrcrQ1d-KhgGBAHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [{
+    platform: "youtube",
+    url: "https://youtu.be/LB4UQB564k8?si=2xTXICVmdQpOSvnU"
+  }],
+  director: "Aamir Khan",
+  music: "Shankar–Ehsaan–Loy",
+  awards: []
+},
 
 
 ];
@@ -1923,4 +2123,3 @@ toggleFiltersBtn.onclick = () => {
 closeFiltersBtn.onclick = () => {
   body.classList.remove('filters-open');
 };
-
