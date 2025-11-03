@@ -988,7 +988,7 @@ const MOVIES = [
   ott: [
     {
       platform: "youtube",
-      url: "https://youtu.be/Vh4TCp1-X3M?si=N_2XXrm1FFhHycp3"
+      url: "https://youtu.be/2vpU5hXY51M?si=LrMkhLkJw3bGY_-Y"
     }
   ],
   director: "Mani Ratnam",
@@ -1197,7 +1197,12 @@ const MOVIES = [
     {
       platform: 'aha',
       url: 'https://www.aha.video/movie/guna'
+    },
+    {
+      platform: 'youtube',
+      url: 'https://www.youtube.com/live/Hiwz_Eu6YKA?si=fBOQ1oz40FY_P0fv'
     }
+    
   ],
   director: "Santhana Bharathi",
   music: "Ilaiyaraaja",
@@ -1643,10 +1648,79 @@ const MOVIES = [
       url: "https://www.sunnxt.com/tamil-movie-thani-oruvan-2015/detail/7191"
     }
   ],
-  director: "M. Saravanan",
-  music: "Harris Jayaraj",
+  director: "	Mohan Raja",
+  music: "	Hiphop Tamizha",
   awards: ["Filmfare Award for Best Actor – Jayam Ravi"]
+},
+{
+  id: 116,
+  title: "Lokah Chapter 1: Chandra",
+  year: 2025,
+  rating: 8.1,
+  genres: ["Action", "Fantasy", "Mythology", "Pan-Indian","Malayalam"],
+  overview:
+    "The first chapter in the Lokah cinematic universe, 'Chandra' explores the rise of a mystical warrior torn between destiny and divinity in an epic battle of light and shadow.",
+  poster: "https://www.cinejosh.com/newsimg/newsmainimg/lokah-chapter-1_b_3110251257.jpg",
+  ott: [{
+    platform: "jiohotstar",
+    url: "https://www.hotstar.com/in/movies/lokah-chapter-1-chandra/1271499938?search_query=lokah+chapter+1+chandra+2025"
+  }],
+  director: "Dominic Arun",
+  music: "Jakes Bejoy",
+  awards: []
+},
+{
+  id: 117,
+  title: "Kantara: A Legend – Chapter 1",
+  year: 2025,
+  rating: 8.5,
+  genres: ["Action", "Mythology", "Drama", "Kannada"],
+  overview:
+    "A prequel to 'Kantara', this film delves into the origin story of the Panjurli Daiva and the ancient bond between man, nature, and divinity.",
+  poster: "https://www.cinejosh.com/newsimg/newsmainimg/kantara-chapter-1-first-look-and-teaser-released_b_2711230115.jpg",
+  ott: [{
+    platform: "prime",
+    url: "https://www.primevideo.com/detail/Kantara-A-Legend-Chapter---1/0GVRWVPYEWP2ISMP4M9H28TEKE"
+  }],
+  director: "Rishab Shetty",
+  music: "Ajaneesh Loknath",
+  awards: []
+},
+{
+  id: 118,
+  title: "Mahavatar Narsimha",
+  year: 2024,
+  rating: 8.7,
+  genres: ["Mythology", "Action", "Spiritual", "Hindi"],
+  overview:
+    "Inspired by ancient scriptures, this mythological epic portrays the incarnation of Lord Vishnu as Narasimha, the fierce protector who restores dharma by annihilating evil.",
+  poster: "https://upload.wikimedia.org/wikipedia/en/4/45/Mahavatar_Narsimha_film_poster.jpg",
+  ott: [{
+    platform:"netflix",
+    url:"https://www.netflix.com/in/title/82131939"
+  }],
+  director: "Ashwin Kumar",
+  music: "	Sam C. S",
+  awards: []
+},
+{
+  id: 119,
+  title: "Idli Kadai",
+  year: 2025,
+  rating: 6.9,
+  genres: ["Comedy", "Drama", "Family", "Tamil"],
+  overview:
+    "Set in a bustling South Indian town, 'Idli Kadai' follows the hilarious and heartwarming story of a small eatery owner whose humble idli shop becomes the center of community, chaos, and dreams.",
+  poster: "https://a.ltrbxd.com/resized/film-poster/1/2/0/4/4/3/7/1204437-idly-kadai-0-230-0-345-crop.jpg?v=8882fee36b",
+  ott: [{
+    platform: "netflix",
+    url: "https://www.netflix.com/in/title/82034831"
+  }],
+  director: "Dhanush",
+  music: "G. V. Prakash Kumar",
+  awards: []
 }
+
 
 ];
 
