@@ -1920,6 +1920,42 @@ const MOVIES = [
   music: "Shankar–Ehsaan–Loy",
   awards: []
 },
+{
+  id: 130,
+  title: "The Jungle Book",
+  year: 2016,
+  rating: 7.4,
+  genres: ["Adventure", "Family", "Fantasy", "English"],
+  overview:
+    "An orphaned boy raised by wolves must leave the jungle when the fearsome tiger Shere Khan threatens his life. A visually stunning reimagining of the classic tale.",
+  poster: "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Jungle_Book_%282016%29.jpg",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/movies/the-jungle-book/1260018310?search_query=jung"
+    }
+  ],
+  director: "Jon Favreau",
+  music: "John Debney",
+  awards: ["Academy Award for Best Visual Effects"]
+},
+{
+  id: 131,
+  title: "Mufasa: The Lion King",
+  year: 2024,
+  rating: 6.6,
+  genres: ["Animation", "Adventure", "Drama", "English"],
+  overview:
+    "The prequel to 'The Lion King' reveals the untold story of Mufasa’s rise to become one of the greatest kings of the Pride Lands.",
+  poster: "https://idposter.com/img/Movie/Movies_2025/Mufasa_The_Lion_King/id2631680.webp",
+  ott: [{
+    platform: 'jiohotstar',
+    url: 'https://www.hotstar.com/in/movies/mufasa-the-lion-king/1271337440?search_query=mufassa'
+  }],
+  director: "Barry Jenkins",
+  music: "Hans Zimmer, Pharrell Williams, Nicholas Britell",
+  awards: []
+}
 
 
 ];
