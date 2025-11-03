@@ -1648,8 +1648,8 @@ const MOVIES = [
       url: "https://www.sunnxt.com/tamil-movie-thani-oruvan-2015/detail/7191"
     }
   ],
-  director: "	Mohan Raja",
-  music: "	Hiphop Tamizha",
+  director: "Mohan Raja",
+  music: "Hiphop Tamizha",
   awards: ["Filmfare Award for Best Actor – Jayam Ravi"]
 },
 {
@@ -1923,3 +1923,4 @@ toggleFiltersBtn.onclick = () => {
 closeFiltersBtn.onclick = () => {
   body.classList.remove('filters-open');
 };
+
