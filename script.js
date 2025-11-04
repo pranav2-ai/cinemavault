@@ -1811,8 +1811,8 @@ const MOVIES = [
   poster: "https://c8.alamy.com/comp/E5MMRH/ra-one-shah-rukh-khan-on-indian-poster-in-english-2011-eros-internationalcourtesy-E5MMRH.jpg",
   ott: [
     {
-      platform: "",
-      url: ""
+      platform: "youtube",
+      url: "https://youtu.be/uzmfVpBxlVc?si=erv1WdzXO1uqDBZu"
     }
   ],
   director: "Anubhav Sinha",
@@ -1955,8 +1955,116 @@ const MOVIES = [
   director: "Barry Jenkins",
   music: "Hans Zimmer, Pharrell Williams, Nicholas Britell",
   awards: []
-}
+},
+ {
+    id: 132,
+    title: "Kalyanaraman",
+    year: 2002,
+    rating: 7.5,
+    genres: ["Comedy", "Drama", "Malayalam"],
+    overview: "A wedding planner's own love story takes hilarious and emotional turns as he navigates family expectations and misunderstandings.",
+    poster: "https://a.ltrbxd.com/resized/film-poster/2/8/1/7/3/8/281738-kalyanaraman-0-460-0-690-crop.jpg?k=cc24946b69",
+    ott: [
+      { platform: "youtube", url: "https://youtu.be/gF3X54sk0hc?si=BRhjem5sPXv4uxDe" }
+    ],
+    director: "Shafi",
+    music: "Berny–Ignatius",
+    awards: []
+  },
 
+   {
+    id: 133,
+    title: "C.I.D. Moosa",
+    year: 2003,
+    rating: 7.8,
+    genres: ["Comedy", "Action", "Malayalam"],
+    overview: "An ambitious private detective’s hilarious escapades as he tries to solve major cases while being underestimated by everyone.",
+    poster: "https://alchetron.com/cdn/CID-Moosa-images-53434ef1-b799-434d-b153-ec216a4f870.jpg",
+    ott: [
+      { platform: "sunnxt", url: "https://www.sunnxt.com/malayalam-movie-cidmoosa-2003/detail/13431" }
+    ],
+    director: "Johny Antony",
+    music: "Vidyasagar",
+    awards: []
+  },
+   {
+    id: 134,
+    title: "Ee Parakkum Thalika",
+    year: 2001,
+    rating: 7.4,
+    genres: ["Comedy", "Drama", "Malayalam"],
+    overview: "A carefree bus owner and his friend live a humorous life until love and responsibility enter their chaotic world.",
+    poster: "https://m.media-amazon.com/images/M/MV5BNGQ2ZWRmMWEtMzg1MC00NGQ3LWJhZTUtY2Q3YzNlOTAwMWUyXkEyXkFqcGc@._V1_.jpg",
+    ott: [
+      { platform: "youtube", url: "https://youtu.be/k7adknGDOCo?si=m9oR1UE8rqUXQjLB" }
+    ],
+    director: "Thaha",
+    music: "Ouseppachan",
+    awards: []
+  },
+  {
+    id: 135,
+    title: "One Man Show",
+    year: 2001,
+    rating: 6.8,
+    genres: ["Comedy", "Drama", "Malayalam"],
+    overview: "A simple man’s life turns upside down when a television show exposes his secrets, leading to chaos and humor.",
+    poster: "https://alchetron.com/cdn/One-Man-Show-film-images-883a4b31-a293-4c64-bdd8-b632d8fc618.jpg",
+    ott: [
+      { platform: "youtube", url: "https://youtu.be/d2x6hxiMxVc?si=Ntwby40KxgvZLksk" }
+    ],
+    director: "Shafi",
+    music: "Alphons Joseph",
+    awards: []
+  },
+  {
+    id: 136,
+    title: "Vettam",
+    year: 2004,
+    rating: 7.2,
+    genres: ["Comedy", "Romance", "Malayalam"],
+    overview: "A thief on the run finds himself entangled with a runaway bride, leading to a series of comic misadventures.",
+    poster: "https://image.tmdb.org/t/p/original/z46Hnzg8aNppbrLUIHfri4SgRKZ.jpg",
+    ott: [
+      { platform: "prime", url: "https://www.primevideo.com/detail/Vettam/0P0X8ZJBXH0Z9ESPFEKKQWJ7EG" },
+      {
+        platform: 'youtube',url: 'https://youtu.be/40nfhLC7i84?si=g47x-zyoAa_-l-9l'
+      }
+    ],
+    director: "Priyadarshan",
+    music: "Alex Paul",
+    awards: []
+  },
+  {
+    id: 137,
+    title: "Two Countries",
+    year: 2015,
+    rating: 6.9,
+    genres: ["Comedy", "Romance", "Malayalam"],
+    overview: "A lazy man marries a wealthy Canadian woman, only to face hilarious cultural clashes and marital troubles.",
+    poster: "https://m.media-amazon.com/images/I/61Cni+-33oL._SY300_.jpg",
+    ott: [
+      { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/2-countries/1000159550?search_query=two+count" }
+    ],
+    director: "Shafi",
+    music: "Gopi Sundar",
+    awards: []
+  },
+  {
+    id: 138,
+    title: "Punjabi House",
+    year: 1998,
+    rating: 7.8,
+    genres: ["Comedy", "Drama", "Malayalam"],
+    overview: "A man fakes his suicide to escape debt but ends up in a Punjabi household, leading to hilarious situations.",
+    poster: "https://m.media-amazon.com/images/M/MV5BNDFhMmVlZGEtMmI5Ni00ZGQ5LThmNmQtOTJjZTQxNDg5MDMyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    ott: [
+      { platform: "youtube", url: "https://youtu.be/uH207PW77Wo?si=9hTPIxrTnNeVz5S_" }
+    ],
+    director: "Rafi Mecartin",
+    music: "Suresh Peters",
+    awards: []
+  }
 
 ];
 
@@ -1979,183 +2087,220 @@ const ottLogos = {
 
 
 // App state
-const state = {
-  movies: MOVIES.slice(),
-  query: '',
-  genre: null,
-  minRating: 0,
-  sort: 'popular',
-  favorites: new Set(JSON.parse(localStorage.getItem('mv_favs')||'[]')),
-  showOnlyFavs:false,
-  page:1,
-  perPage:8
-};
+/* === CinemaVault with Pagination === */
 
-// Elements
-const grid = document.getElementById('grid');
-const countEl = document.getElementById('count');
-const searchInput = document.getElementById('searchInput');
-const genresWrap = document.getElementById('genres');
-const minRating = document.getElementById('minRating');
-const ratingLabel = document.getElementById('ratingLabel');
-const sortSelect = document.getElementById('sortSelect');
-const clearBtn = document.getElementById('clearBtn');
-const showFavs = document.getElementById('showFavs');
-const showAll = document.getElementById('showAll');
-const pager = document.getElementById('pager');
+const MOVIES_PER_PAGE = 12;
+let currentPage = 1;
+let filteredMovies = [...MOVIES];
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-// Modal
-const modal = document.getElementById('modal');
-const modalTitle = document.getElementById('modalTitle');
-const modalPoster = document.getElementById('modalPoster');
-const modalOverview = document.getElementById('modalOverview');
-const modalMeta = document.getElementById('modalMeta');
-const modalGenres = document.getElementById('modalGenres');
-const modalClose = document.getElementById('modalClose');
-const modalFav = document.getElementById('modalFav');
-const modalott = document.getElementById('modalott');
+const grid = document.getElementById("grid");
+const pager = document.getElementById("pager");
+const count = document.getElementById("count");
+const searchInput = document.getElementById("searchInput");
+const sortSelect = document.getElementById("sortSelect");
+const clearBtn = document.getElementById("clearBtn");
+const minRating = document.getElementById("minRating");
+const ratingLabel = document.getElementById("ratingLabel");
+const genresContainer = document.getElementById("genres");
+const showAll = document.getElementById("showAll");
+const showFavs = document.getElementById("showFavs");
 
-// helper: unique genres
-function getAllGenres(){
-  const set = new Set(); 
-  MOVIES.forEach(m => m.genres.forEach(g => set.add(g)));
-  return [...set].sort();
-}
+const modal = document.getElementById("modal");
+const modalPoster = document.getElementById("modalPoster");
+const modalTitle = document.getElementById("modalTitle");
+const modalMeta = document.getElementById("modalMeta");
+const modalOverview = document.getElementById("modalOverview");
+const modalGenres = document.getElementById("modalGenres");
+const modalOTT = document.getElementById("modalott");
+const modalFav = document.getElementById("modalFav");
+const modalClose = document.getElementById("modalClose");
 
-function renderGenres(){
-  const all = getAllGenres(); genresWrap.innerHTML='';
-  const any = document.createElement('button'); any.textContent='Any'; any.className='genre-btn'; any.onclick=()=>{state.genre=null; state.page=1; render();};
-  genresWrap.appendChild(any);
-  all.forEach(g=>{
-    const btn=document.createElement('button'); btn.textContent=g; btn.className='genre-btn';
-    btn.onclick=()=>{state.genre=g; state.page=1; render();};
-    genresWrap.appendChild(btn);
-  });
-}
+/* === Render Functions === */
+function renderMovies() {
+  grid.innerHTML = "";
 
-function filteredMovies(){
-  let arr = MOVIES.filter(m=>{
-    const q = state.query.toLowerCase();
-    const matchQ = !q || m.title.toLowerCase().includes(q) || m.overview.toLowerCase().includes(q);
-    const matchG = !state.genre || m.genres.includes(state.genre);
-    const matchR = m.rating >= state.minRating;
-    const matchF = !state.showOnlyFavs || state.favorites.has(m.id);
-    return matchQ && matchG && matchR && matchF;
-  });
-  switch(state.sort){
-    case 'rating': arr.sort((a,b)=>b.rating-a.rating); break;
-    case 'year_desc': arr.sort((a,b)=>b.year-a.year); break;
-    case 'year_asc': arr.sort((a,b)=>a.year-b.year); break;
-  }
-  return arr;
-}
+  const start = (currentPage - 1) * MOVIES_PER_PAGE;
+  const end = start + MOVIES_PER_PAGE;
+  const pageMovies = filteredMovies.slice(start, end);
 
-function render(){
-  const movies = filteredMovies();
-  countEl.textContent = movies.length;
-
-  const pageMovies = movies; // render all movies
-
-  grid.innerHTML='';
-  pageMovies.forEach(m=>{
-    const div=document.createElement('div'); div.className='card';
-    div.innerHTML=`
-      <img class="poster" src="${m.poster}" alt="${m.title}">
+  pageMovies.forEach(movie => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img class="poster" src="${movie.poster}" alt="${movie.title}">
       <div class="card-body">
         <div class="meta">
           <div>
-            <div class="title">${m.title}</div>
-            <div class="sub">${m.year} • ⭐ ${m.rating}</div>
+            <div class="title">${movie.title}</div>
+            <div class="sub">${movie.year} • ⭐ ${movie.rating ?? "N/A"}</div>
           </div>
-          <button class="fav" title="Favorite">${state.favorites.has(m.id)?'❤️':'♡'}</button>
+          <button class="fav" title="Add to favorites">${favorites.includes(movie.id) ? "❤️" : "♡"}</button>
         </div>
-        ${(m.ott || []).map(o => ottLogos[o] ? `<img src="${ottLogos[o]}" alt="${o}" style="height:20px;margin-top:6px;opacity:.9;margin-right:4px">` : '').join('')}
       </div>
     `;
-    div.querySelector('.poster').onclick=()=>openModal(m);
-    div.querySelector('.fav').onclick=()=>toggleFav(m.id);
-    grid.appendChild(div);
+
+    // Click to open modal
+    card.querySelector(".poster").addEventListener("click", () => openModal(movie));
+    // Favorite button
+    card.querySelector(".fav").addEventListener("click", e => {
+      e.stopPropagation();
+      toggleFavorite(movie.id);
+    });
+
+    grid.appendChild(card);
   });
 
-  pager.innerHTML='';
+  count.textContent = filteredMovies.length;
+  renderPager();
 }
 
-// modal
-function openModal(m){
-  modalTitle.textContent = m.title;
-  modalPoster.src = m.poster;
-  modalOverview.textContent = m.overview;
+function renderPager() {
+  pager.innerHTML = "";
+  const totalPages = Math.ceil(filteredMovies.length / MOVIES_PER_PAGE);
 
-  modalMeta.textContent = `${m.year} • Rating ${m.rating}`;
+  if (totalPages <= 1) return;
 
-  // extra info in separate lines
-  let extraInfo = '';
-  if(m.director) extraInfo += `<div>Director: ${m.director}</div>`;
-  if(m.music) extraInfo += `<div>Music: ${m.music}</div>`;
-  if(m.awards && m.awards.length > 0) extraInfo += `<div>Awards: ${m.awards.join(', ')}</div>`;
-
-  modalOverview.innerHTML = m.overview + (extraInfo ? `<div style="margin-top:8px;">${extraInfo}</div>` : '');
-
-  modalGenres.textContent = `Genres: ${m.genres.join(', ')}`;
-  modalFav.textContent = state.favorites.has(m.id) ? '❤️' : '♡';
-  modalFav.onclick = () => toggleFav(m.id, true);
-
-   modalott.innerHTML = (m.ott || []).map(o => {
-    const platform = o.platform;
-    const url = o.url;
-    return ottLogos[platform]
-      ? `<a href="${url}" target="_blank" title="Watch on ${platform}">
-           <img src="${ottLogos[platform]}" alt="${platform}"
-                style="height:28px;margin-top:10px;opacity:.9;margin-right:6px;cursor:pointer">
-         </a>`
-      : '';
-  }).join('');
-
-
-
-  modal.classList.add('open');
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = i;
+    btn.className = "page-btn";
+    if (i === currentPage) btn.style.backgroundColor = "#333";
+    btn.addEventListener("click", () => {
+      currentPage = i;
+      renderMovies();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    pager.appendChild(btn);
+  }
 }
 
+/* === Filtering, Search & Sorting === */
+function applyFilters() {
+  const search = searchInput.value.toLowerCase();
+  const min = parseFloat(minRating.value);
+  const selectedGenreBtns = genresContainer.querySelectorAll(".genre-btn.active");
+  const selectedGenres = [...selectedGenreBtns].map(btn => btn.textContent);
 
-modalClose.onclick=()=>modal.classList.remove('open');
-modal.onclick=e=>{if(e.target===modal) modal.classList.remove('open');};
+  filteredMovies = MOVIES.filter(movie => {
+    const matchesSearch =
+      movie.title.toLowerCase().includes(search) ||
+      movie.director.toLowerCase().includes(search) ||
+      movie.genres.some(g => g.toLowerCase().includes(search));
 
-// events
-searchInput.oninput=e=>{state.query=e.target.value; state.page=1; render();};
-minRating.oninput=e=>{state.minRating=+e.target.value; ratingLabel.textContent=e.target.value+'+'; state.page=1; render();};
-sortSelect.onchange=e=>{state.sort=e.target.value; render();};
-clearBtn.onclick=()=>{
-  state.query=''; state.genre=null; state.minRating=0; state.sort='popular'; state.page=1; state.showOnlyFavs=false;
-  searchInput.value=''; minRating.value=0; ratingLabel.textContent='0+';
-  render();
-};
-showFavs.onclick=()=>{state.showOnlyFavs=true; state.page=1; render();};
-showAll.onclick=()=>{state.showOnlyFavs=false; state.page=1; render();};
+    const matchesRating = !movie.rating || movie.rating >= min;
+    const matchesGenre =
+      selectedGenres.length === 0 ||
+      selectedGenres.some(g => movie.genres.includes(g));
+    const matchesFav =
+      showFavs.classList.contains("active") ? favorites.includes(movie.id) : true;
 
-function toggleFav(id,inModal){
-  if(state.favorites.has(id)) state.favorites.delete(id); else state.favorites.add(id);
-  localStorage.setItem('mv_favs',JSON.stringify([...state.favorites]));
-  if(inModal) modalFav.textContent=state.favorites.has(id)?'❤️':'♡';
-  render();
+    return matchesSearch && matchesRating && matchesGenre && matchesFav;
+  });
+
+  applySort();
+  currentPage = 1;
+  renderMovies();
 }
 
-// init
+function applySort() {
+  const value = sortSelect.value;
+  filteredMovies.sort((a, b) => {
+    switch (value) {
+      case "rating": return (b.rating ?? 0) - (a.rating ?? 0);
+      case "year_desc": return b.year - a.year;
+      case "year_asc": return a.year - b.year;
+      default: return b.rating - a.rating; // popular default
+    }
+  });
+}
+
+/* === Favorites === */
+function toggleFavorite(id) {
+  if (favorites.includes(id)) {
+    favorites = favorites.filter(f => f !== id);
+  } else {
+    favorites.push(id);
+  }
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  renderMovies();
+}
+
+/* === Modal === */
+function openModal(movie) {
+  modalPoster.src = movie.poster;
+  modalTitle.textContent = movie.title;
+  modalMeta.textContent = `${movie.year} • ⭐ ${movie.rating ?? "N/A"} • Dir. ${movie.director}`;
+  modalOverview.textContent = movie.overview;
+  modalGenres.innerHTML = movie.genres.map(g => `<span class="genre-btn">${g}</span>`).join(" ");
+  modalOTT.innerHTML = movie.ott?.length
+  ? movie.ott.map(p => {
+      // Get the logo URL from the ottLogos object
+      const logoUrl = ottLogos[p.platform];
+      
+      // Use the logo if it exists, otherwise fall back to text
+      const content = logoUrl
+        ? `<img src="${logoUrl}" alt="${p.platform}" class="ott-logo">`
+        : p.platform; // Fallback to text if logo isn't found
+        
+      return `<a href="${p.url}" target="_blank" class="ott-link">${content}</a>`;
+    }).join(" ") // Join with a space instead of a bullet
+  : "<em>No streaming info</em>";
+  modalFav.textContent = favorites.includes(movie.id) ? "❤️" : "♡";
+  modalFav.onclick = () => toggleFavorite(movie.id);
+  modal.classList.add("open");
+}
+
+modalClose.addEventListener("click", () => modal.classList.remove("open"));
+modal.addEventListener("click", e => {
+  if (e.target === modal) modal.classList.remove("open");
+});
+
+/* === Event Listeners === */
+searchInput.addEventListener("input", applyFilters);
+sortSelect.addEventListener("change", applyFilters);
+minRating.addEventListener("input", () => {
+  ratingLabel.textContent = `${minRating.value}+`;
+  applyFilters();
+});
+clearBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  sortSelect.value = "popular";
+  minRating.value = 0;
+  ratingLabel.textContent = "0+";
+  genresContainer.querySelectorAll(".genre-btn").forEach(btn => btn.classList.remove("active"));
+  showAll.classList.add("active");
+  showFavs.classList.remove("active");
+  applyFilters();
+});
+showAll.addEventListener("click", () => {
+  showAll.classList.add("active");
+  showFavs.classList.remove("active");
+  applyFilters();
+});
+showFavs.addEventListener("click", () => {
+  showFavs.classList.add("active");
+  showAll.classList.remove("active");
+  applyFilters();
+});
+
+/* === Genres === */
+function renderGenres() {
+  const allGenres = new Set();
+  MOVIES.forEach(m => m.genres.forEach(g => allGenres.add(g)));
+  genresContainer.innerHTML = "";
+  [...allGenres].sort().forEach(g => {
+    const btn = document.createElement("button");
+    btn.className = "genre-btn";
+    btn.textContent = g;
+    btn.addEventListener("click", () => {
+      btn.classList.toggle("active");
+      applyFilters();
+    });
+    genresContainer.appendChild(btn);
+  });
+}
+
+/* === Init === */
 renderGenres();
-render();
-
-// Add these to your "Elements" section at the top of script.js
-
-const toggleFiltersBtn = document.getElementById('toggleFiltersBtn');
-const closeFiltersBtn = document.getElementById('closeFiltersBtn');
-const filtersPanel = document.getElementById('filtersPanel');
-const body = document.body;
-
-
-// Add these event listeners near the other events at the bottom of script.js
-
-toggleFiltersBtn.onclick = () => {
-  body.classList.toggle('filters-open');
-};
-closeFiltersBtn.onclick = () => {
-  body.classList.remove('filters-open');
-};
+applyFilters();
