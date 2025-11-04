@@ -372,3 +372,30 @@ footer {
     object-fit: cover;
   }
 }
+
+/* --- Modal OTT Logos --- */
+#modalott {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between logos */
+  align-items: center;
+}
+
+.ott-link {
+  display: inline-block;
+  background-color: var(--bg-color); /* Darker background for contrast */
+  border-radius: var(--radius);
+  padding: 6px 8px;
+  transition: background-color 0.2s;
+  line-height: 1;
+}
+
+.ott-link:hover {
+  background-color: #333; /* Hover effect */
+}
+
+.ott-logo {
+  height: 24px; /* Constrains logo height */
+  width: auto;
+  vertical-align: middle; /* Aligns logo nicely with text fallback */
+}
