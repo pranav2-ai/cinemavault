@@ -617,7 +617,7 @@ const MOVIES = [
     genres: ["Action", "Thriller", "Telugu"],
     overview:
       "A mythological action-drama starring Dhanush and Nagarjuna, rumored to explore greed, power, and divine justice.",
-    poster: "https://igimage.indiaglitz.com/telugu/home/kubera-080924-2.jpg",
+    poster: "https://m.media-amazon.com/images/M/MV5BMDI4ZTFkYWItYjI1Yy00Yzk0LTkxNjUtZGE0ZGVkMjdlYTRkXkEyXkFqcGc@._V1_.jpg",
     ott: [{platform: 'prime',url:'https://www.primevideo.com/detail/0H4F08S9TX79QMGPKI09RXMYXP/ref=atv_dl_rdr'}],
     director: "Sekhar Kammula",
     music: "Devi Sri Prasad",
