@@ -84,7 +84,7 @@ const MOVIES = [
     {platform: 'prime', url: 'https://www.primevideo.com/detail/0RIGXSH2D86B5V2RNHQOZVRGAD/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B08L653W16&qid=1760535100003'},
     {
       platform: 'mxplayer',
-      url: 'https://www.mxplayer.in/movie/watch-jailer-movie-online-cc1f9610b1cc638cf9b60f305ee1b4d6?watch=true'
+      url: 'https://www.mxplayer.in/movie/watch-soorarai-pottru-tamil-movie-online-a710a50dd1a0be70ce915418111e4a71?watch=true'
     }
    ],
    director: "Sudha Kongara", music: "G. V. Prakash Kumar", awards: ["Best Feature Film", "Best Actor - Suriya", "Best Actress - Aparna Balamurali"]},
