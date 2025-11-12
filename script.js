@@ -2064,6 +2064,150 @@ const MOVIES = [
     director: "Rafi Mecartin",
     music: "Suresh Peters",
     awards: []
+  },
+  {
+    id: 139,
+    title: "Manichitrathazhu",
+    year: 1993,
+    rating: 8.7,
+    genres: ["Horror", "Thriller", "Drama", "Malayalam"],
+    overview: "A newlywed couple moves into a haunted mansion, where an ancestral spirit possesses the wife, unraveling a mysterious past.",
+    poster: "https://i.pinimg.com/originals/04/21/eb/0421eb351e65b14b81653867ea10d0d3.jpg",
+    ott: [
+      { platform: "prime", url: "https://www.primevideo.com/detail/0F72QU3SILHFNBX43WUWNDLAA7/ref=atv_dl_rdr"},
+        {platform: "jiohotstar",url: "https://www.hotstar.com/in/movies/manichithrathazhu/1000154351" },
+        {platform: "youtube",url: "https://youtu.be/Rnei1GckDZg?si=pzX2f8mcE36PUJkM"}
+       
+    ],
+    director: "Fazil",
+    music: "M.G. Radhakrishnan",
+    awards: ["National Film Award for Best Popular Film Providing Wholesome Entertainment"]
+  },
+  {
+    id: 140,
+    title: "Ravanaprabhu",
+    year: 2001,
+    rating: 7.5,
+    genres: ["Action", "Drama", "Malayalam"],
+    overview: "A sequel to Devasuram, the story follows Mangalassery Neelakantan's son seeking revenge and redemption in a power struggle.",
+    poster: "https://pbs.twimg.com/media/E-CvkzrXEAMHvMb.jpg",
+    ott: [
+      { platform: "prime", url: "https://www.primevideo.com/detail/Raavanaprabhu/0LY4LHJSWGN9YTDYU7YFTRN5Q1" },
+      {platform:"youtube",url: "https://youtu.be/Nephx88OjEk?si=NfjsMhfsM68hEv4p"}
+    ],
+    director: "Ranjith",
+    music: "C. Rajamani",
+    awards: []
+  },
+  {
+    id: 141,
+    title: "Uttama Villain",
+    year: 2015,
+    rating: 7.8,
+    genres: ["Drama", "Fantasy", "Tamil"],
+    overview: "A famous actor facing death creates a movie about immortality, blurring the line between art and reality.",
+    poster: "https://th.bing.com/th/id/R.ffb06a4fea0ca8b9b38c2478821838b1?rik=9MYv0RqHqwQV3A&riu=http%3a%2f%2fdata1.ibtimes.co.in%2fen%2ffull%2f441013%2futtama-villain-first-look-poster-ramesh-aravind-twitter.jpg&ehk=y%2fZD4p0Lf3v6dVBr9QA4TVKvfWX5Ncj8vuwGAraTJ60%3d&risl=&pid=ImgRaw&r=0",
+    ott: [
+      { platform: "prime", url: "https://www.primevideo.com/detail/Uttama-Villain/0KIY6NK8MHZABCNW2JV6HHW4MF" },
+      {platform: "youtube",url: "https://youtu.be/_qjnq1feNhg?si=2xnq5QWHO6SRxELz"},
+      {platform:"zee5",url: "https://www.zee5.com/movies/details/uttama-villain/0-0-uttamavillain"}
+    ],
+    director: "Ramesh Aravind",
+    music: "Ghibran",
+    awards: []
+  },
+  {
+    id: 142,
+    title: "Narasimham",
+    year: 2000,
+    rating: 7.6,
+    genres: ["Action", "Drama", "Malayalam"],
+    overview: "A man wrongfully imprisoned returns seeking vengeance and justice, leading to an epic showdown of power and pride.",
+    poster: "https://m.media-amazon.com/images/I/51+nsJL0G0L._UF350,350_QL50_.jpg",
+    ott: [
+      { platform: "", url: "" },
+      {platform: "youtube",url:"https://youtu.be/Z3g5qGQK7eI?si=CpLbZ5yFG22jxq_E"}
+    ],
+    director: "Shaji Kailas",
+    music: "M.G. Sreekumar",
+    awards: []
+  },
+   {
+    id: 143,
+    title: "Vanaprastham",
+    year: 1999,
+    rating: 8.5,
+    genres: ["Drama", "Art", "Malayalam"],
+    overview: "A Kathakali artist’s tragic journey through art, love, and identity as his life and performance intertwine.",
+    poster: "https://2.bp.blogspot.com/_s9x_JXX57n4/TUeg9UGHOTI/AAAAAAAABvQ/t_xuNcro2QU/s1600/Vanaprastham.jpg",
+    ott: [
+      {platform:"jiohotstar",url: "https://www.hotstar.com/in/movies/vanaprastham/1000164505"},
+      { platform: "youtube", url: "https://youtu.be/WiRfhb_ixao?si=3dcAUohkJsRYhGxm" }
+    ],
+    director: "Shaji N. Karun",
+    music: "Zakir Hussain",
+    awards: ["National Film Award – Best Film"]
+  },
+  {
+    id: 144,
+    title: "Oru Vadakkan Veeragatha",
+    year: 1989,
+    rating: 8.8,
+    genres: ["Action", "Drama", "History", "Malayalam"],
+    overview: "A retelling of the legend of Chandu Chekavar, depicting his life, betrayal, and misunderstood heroism.",
+    poster: "https://image.tmdb.org/t/p/w500/AeRbwPlmE8m3qnr4AjB4lmEVqKs.jpg",
+    ott: [
+      { platform: "youtube", url: "https://youtu.be/QjufSxVXILw?si=ConZhk8qUE-CIeDS" }
+    ],
+    director: "Hariharan",
+    music: "M. G. Radhakrishnan",
+    awards: ["National Film Award for Best Screenplay"]
+  },
+  {
+    id: 145,
+    title: "Kerala Varma Pazhassi Raja",
+    year: 2009,
+    rating: 7.8,
+    genres: ["Action", "Historical", "Malayalam"],
+    overview: "The story of the legendary king Kerala Varma Pazhassi Raja and his heroic resistance against British colonialism.",
+    poster: "https://th.bing.com/th/id/R.89b2d6bb8cc204516f3f5559d78e4591?rik=dxN7r1NG1mkwXQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f_8MR8AOUFJ4I%2fSuVhtXDstJI%2fAAAAAAAAABA%2fQczaGGJMf0M%2fs320%2fPazhassi-Raja-01.jpg&ehk=WcfdGjcX8QEhQoUiRqhJipCS%2bmbK9E384Lf%2bqbge5c0%3d&risl=&pid=ImgRaw&r=0",
+    ott: [
+      { platform: "ajiohotstar", url: "https://www.hotstar.com/in/movies/kerala-varma-pazhassiraja/1000101168?search_query=pazh" }
+    ],
+    director: "Hariharan",
+    music: "Ilaiyaraaja",
+    awards: ["National Film Award for Best Background Score"]
+  },
+  {
+    id: 146,
+    title: "Oppam",
+    year: 2016,
+    rating: 7.3,
+    genres: ["Thriller", "Crime", "Drama", "Malayalam"],
+    overview: "A blind man becomes the key witness to a murder and must use his other senses to bring the killer to justice.",
+    poster: "https://www.filmibeat.com/fanimg/oppam-photos-images-50219.jpg",
+    ott: [
+      { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/kanupapa/1000188983" }
+    ],
+    director: "Priyadarshan",
+    music: "Ron Ethan Yohann",
+    awards: []
+  },
+  {
+    id: 147,
+    title: "Pulimurugan",
+    year: 2016,
+    rating: 7.1,
+    genres: ["Action", "Adventure", "Malayalam"],
+    overview: "A skilled hunter protects his village from man-eating tigers, becoming both a hero and a legend in the forest.",
+    poster: "https://c8.alamy.com/comp/KYN585/pulimurugan-indian-poster-in-english-and-malayalam-mohanlal-2016-mulakuppadam-KYN585.jpg",
+    ott: [
+      { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/pulimurugan/1770015155" },
+      {platform: "youtube",url: 'https://youtu.be/DjBcBM_5MhQ?si=Jfet5u5lw3u-H4MR'}
+    ],
+    director: "Vysakh",
+    music: "Gopi Sundar",
+    awards: ["Kerala State Film Award for Best Popular Film"]
   }
 
 ];
