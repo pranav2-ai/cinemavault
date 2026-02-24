@@ -19,7 +19,7 @@ const MOVIES = [
 
   {id:3, title:'The Dark Knight', year:2008, rating:9.1, genres:['Action','Sci-Fi','superhero','English'], 
    overview:'Batman, Lt. Gordon and Harvey Dent go up against the Joker, terrorizing Gotham City', 
-   poster:'https://picfiles.alphacoders.com/441/thumb-1920-441965.jpg', 
+   poster:'https://static1.srcdn.com/wordpress/wp-content/uploads/2024/08/the-dark-knight-2008-movie-poster.jpg', 
    ott: [
     {platform: 'jiohotstar', url: 'https://www.hotstar.com/in/movies/the-dark-knight/1971000395?search_query=The+Dark+Knight+Rises'},
     {platform: 'prime', url: 'https://www.primevideo.com/detail/0JKQMPWCE3RTK5TFZCSIC3H7XO/ref=atv_sr_fle_c_sr3aca3c_2_1_2?sr=1-2&pageTypeIdSource=ASIN&pageTypeId=B0CPTSF27C&qid=1760534646042'},
@@ -2208,6 +2208,40 @@ const MOVIES = [
     director: "Vysakh",
     music: "Gopi Sundar",
     awards: ["Kerala State Film Award for Best Popular Film"]
+  },
+  {
+    id: 148,
+    title: "Anjaan",
+    year: 2014,
+    rating: 5.1,
+    genres: ["Action", "Thriller", "Tamil"],
+    overview: "A man arrives in Mumbai to search for his missing brother, who was a powerful gangster, and uncovers the truth behind his disappearance.",
+    poster: "https://movie.webindia123.com/movie/2014/Regional/January/Anjaan/poster/Anjaan2.jpg",
+    ott: [
+      {platform: 'sunnxt', url: 'https://www.sunnxt.com/tamil-movie-anjaan-2014/detail/26172'},
+      {platform: 'youtube', url: 'https://youtu.be/d9RdDs0IwMU?si=AINI6pzN1MqFiyxc'}
+    ],
+    director: "N. Lingusamy",
+    music: "Yuvan Shankar Raja",
+    awards: []
+  },
+  {
+    id: 149,
+    title: "Ghilli",
+    year: 2004,
+    rating: 8.1,
+    genres: ["Action", "Romance", "Sports", "Tamil"],
+    overview: "A state-level Kabaddi player visits Madurai for a match and ends up rescuing a young woman from a ruthless faction leader.",
+    poster: "https://www.lab-1.nl/wp-content/uploads/2024/04/Ghilli-poster.jpg",
+    ott: [
+      {platform: 'sunnxt', url: 'https://www.sunnxt.com/tamil-movie-ghilli-2004/detail/8778'},
+      {platform: 'prime', url: 'https://www.primevideo.com/detail/0QSXNUX28YSFF0GLQYCZWRG63X/ref=atv_sr_fle_c_sre30869_6_1_6?sr=1-6&pageTypeIdSource=ASIN&pageTypeId=B0D9412YGQ&qid=1771899088926'},
+      {platform: 'youtube', url: 'https://youtu.be/aq4BpUPcHFY?si=HgYZ7G-VvnQ3iq7e'},
+      
+    ],
+    director: "Dharani",
+    music: "Vidyasagar",
+    awards: ["Filmfare Award for Best Actor – Tamil", "Filmfare Award for Best Music Director – Tamil"]
   }
 
 ];
