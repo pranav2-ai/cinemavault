@@ -295,7 +295,7 @@ const MOVIES = [
 
   {id: 48, title: "Maharaja", year: 2024, rating: 7.9, genres: ["Action", "Thriller", "Drama",'Tamil'],
    overview: "A barber's home is robbed, and he tells the police that his 'Lakshmi' has been taken, leading to a desperate and mysterious search.",
-   poster: "https://tse1.mm.bing.net/th/id/OIP.BRBGCX2_qmE42UlJNfNfXQAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+   poster: "https://m.media-amazon.com/images/M/MV5BZDJjNzdkNmItZDExMy00NzA3LWE3YzEtM2U3ZGRjMThlMDU2XkEyXkFqcGc@._V1_.jpg",
    ott: [{platform: 'netflix', url: 'https://www.netflix.com/in/title/81690671'}],
    director: "Nithilan Saminathan", music: "B. Ajaneesh Loknath", awards: []},
 
@@ -2242,7 +2242,150 @@ const MOVIES = [
     director: "Dharani",
     music: "Vidyasagar",
     awards: ["Filmfare Award for Best Actor – Tamil", "Filmfare Award for Best Music Director – Tamil"]
-  }
+  },
+  {
+  id: 150,
+  title: "Aadu",
+  year: 2015,
+  rating: 7.3,
+  genres: ["Comedy", "Action", "Malayalam"],
+  overview: "A group of quirky men get tangled in chaos after a prized goat becomes the center of a bizarre rivalry.",
+  poster: "https://m.media-amazon.com/images/M/MV5BM2MzOWE2ZTAtZTlkNS00MWY3LTgzNmMtZGE1NTAwOTQ4MjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  ott: [
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/aadu/1000089691" }
+  ],
+  director: "Midhun Manuel Thomas",
+  music: "Shaan Rahman",
+  awards: []
+},
+{
+  id: 151,
+  title: "Aadu 2",
+  year: 2017,
+  rating: 7.1,
+  genres: ["Comedy", "Action", "Malayalam"],
+  overview: "Shaji Pappan returns with more absurd adventures as old enemies and new chaos collide.",
+  poster: "https://www.filmibeat.com/fanimg/movie/15159/aadu-2-photos-images-59286.jpg",
+  ott: [
+    { platform: "youtube", url: "https://youtu.be/ibw3-fIrgbY?si=V1l5epJViAWrGjsQ" }
+  ],
+  director: "Midhun Manuel Thomas",
+  music: "Shaan Rahman",
+  awards: []
+},
+{
+  id: 152,
+  title: "Aadu 3",
+  year: 2026,
+  rating: null,
+  genres: ["Comedy", "Action", "Malayalam"],
+  overview: "The third installment in the Shaji Pappan franchise continues the gang’s wildly unpredictable adventures.",
+  poster: "https://upload.wikimedia.org/wikipedia/en/6/6f/Aadu_3_Film.jpg",
+  ott: [{platform:"zee5",url:"https://www.zee5.com/movies/details/aadu-3/0-0-1z5950418"}],
+  director: "Midhun Manuel Thomas",
+  music: "Shaan Rahman",
+  awards: []
+},
+{
+  id: 153,
+  title: "Vaazha: Biopic of a Billion Boys",
+  year: 2024,
+  rating: 7.2,
+  genres: ["Comedy", "Drama", "Malayalam"],
+  overview: "A humorous coming-of-age story following a group of youngsters navigating friendship, family pressure, and adulthood.",
+  poster: "https://assets.voxcinemas.com/posters/P_HO00011394_1723184479087.jpg",
+  ott: [
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/vaazha/1271329367" }
+  ],
+  director: "Anand Menen",
+  music: "Ankit Menon",
+  awards: []
+},
+{
+  id: 154,
+  title: "Dhurandhar",
+  year: 2025,
+  rating: null,
+  genres: ["Action", "Thriller", "Malayalam"],
+  overview: "An upcoming action thriller centered around revenge, betrayal, and power struggles.",
+  poster: "https://upload.wikimedia.org/wikipedia/en/c/ce/Dhurandhar_poster.jpg",
+  ott: [{platform:"netflix",url:"https://www.netflix.com/in/title/82156122"}],
+  director: "Aditya Dhar",
+  music: "Shashwat Sachdev",
+  awards: []
+},
+{
+  id: 155,
+  title: "Dhurandhar: The Revenge",
+  year: 2026,
+  rating: null,
+  genres: ["Action", "Thriller", "Malayalam"],
+  overview: "A revenge-driven sequel that follows the aftermath of deadly betrayal.",
+  poster: "https://media.assettype.com/gulfnews/2026-02-03/sk295u9l/202602033660007.jpg?w=640&auto=format%2Ccompress&fit=max",
+  ott: [{platform:"jiohotstar",url:""}],
+  director: "Aditya Dhar",
+  music: "Shashwat Sachdev",
+  awards: []
+},
+{
+  id: 156,
+  title: "Sarvam Maya",
+  year: 2025,
+  rating: 7.4,
+  genres: ["Supernatural", "Romance", "Comedy", "Malayalam"],
+  overview: "An aspiring musician’s quiet life turns strange after he encounters a mysterious young spirit who changes everything around him.",
+  poster: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sarvam-maya-et00473343-1766390933.jpg",
+  ott: [
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sarvam-maya/1271525191" }
+  ],
+  director: "Akhil Sathyan",
+  music: "Justin Prabhakaran",
+  awards: []
+},
+{
+  id: 157,
+  title: "Parasakthi",
+  year: 2026,
+  rating: 7.6,
+  genres: ["Action", "Drama", "Political", "Period", "Tamil"],
+  overview: "Set against the 1965 anti-Hindi imposition agitations in Tamil Nadu, a young man is drawn into a struggle for justice and resistance.",
+  poster: "https://images.justwatch.com/poster/327674289/s718/parasakthi-2026.jpg",
+  ott: [
+    { platform: "zee5", url: "https://www.zee5.com/movies/details/parasakthi/0-0-1z5902844" }
+  ],
+  director: "Sudha Kongara",
+  music: "G. V. Prakash Kumar",
+  awards: []
+},
+{
+  id: 158,
+  title: "Youth",
+  year: 2026,
+  rating: 7.0,
+  genres: ["Romance", "Comedy", "Drama", "Tamil"],
+  overview: "A coming-of-age romance-comedy following young people navigating love, friendship, and adulthood.",
+  poster: "https://ottarasan.com/wp-content/uploads/2026/02/Youth-Movie-Release-Date-2026.jpg",
+  ott: [{ platform: "netflix", url: "https://www.netflix.com/in/title/82723855" }
+],
+  director: "Ken Karunas",
+  music: "G. V. Prakash Kumar",
+  awards: []
+},
+{
+  id: 159,
+  title: "With Love",
+  year: 2026,
+  rating: 7.8,
+  genres: ["Romance", "Comedy", "Drama", "Tamil"],
+  overview: "When old schoolmates reconnect through a blind date, they revisit past crushes, unfinished emotions, and discover a new bond between themselves.",
+  poster: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/with-love-et00484567-1770031410.jpg",
+  ott: [
+    { platform: "netflix", url: "https://www.netflix.com/in/title/82629230" }
+  ],
+  director: "Madhan",
+  music: "Sean Roldan",
+  awards: []
+},
 
 ];
 
@@ -2272,6 +2415,7 @@ let currentPage = 1;
 let filteredMovies = [...MOVIES];
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
+// Element Selectors[cite: 1]
 const grid = document.getElementById("grid");
 const pager = document.getElementById("pager");
 const count = document.getElementById("count");
@@ -2284,6 +2428,7 @@ const genresContainer = document.getElementById("genres");
 const showAll = document.getElementById("showAll");
 const showFavs = document.getElementById("showFavs");
 
+// Modal Selectors[cite: 1]
 const modal = document.getElementById("modal");
 const modalPoster = document.getElementById("modalPoster");
 const modalTitle = document.getElementById("modalTitle");
@@ -2296,17 +2441,23 @@ const modalClose = document.getElementById("modalClose");
 
 /* === Render Functions === */
 function renderMovies() {
+  if (!grid) return; // Safety check[cite: 2]
   grid.innerHTML = "";
 
   const start = (currentPage - 1) * MOVIES_PER_PAGE;
   const end = start + MOVIES_PER_PAGE;
   const pageMovies = filteredMovies.slice(start, end);
 
+  // Show "No Results" if list is empty[cite: 2]
+  if (pageMovies.length === 0) {
+    grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--muted);">No movies found. Try adjusting your filters.</div>`;
+  }
+
   pageMovies.forEach(movie => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <img class="poster" src="${movie.poster}" alt="${movie.title}">
+      <img class="poster" src="${movie.poster}" alt="${movie.title}" onerror="this.src='https://via.placeholder.com/200x300?text=No+Poster'">
       <div class="card-body">
         <div class="meta">
           <div>
@@ -2318,9 +2469,7 @@ function renderMovies() {
       </div>
     `;
 
-    // Click to open modal
     card.querySelector(".poster").addEventListener("click", () => openModal(movie));
-    // Favorite button
     card.querySelector(".fav").addEventListener("click", e => {
       e.stopPropagation();
       toggleFavorite(movie.id);
@@ -2336,14 +2485,13 @@ function renderMovies() {
 function renderPager() {
   pager.innerHTML = "";
   const totalPages = Math.ceil(filteredMovies.length / MOVIES_PER_PAGE);
-
   if (totalPages <= 1) return;
 
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement("button");
     btn.textContent = i;
     btn.className = "page-btn";
-    if (i === currentPage) btn.style.backgroundColor = "#333";
+    if (i === currentPage) btn.style.border = "1px solid var(--primary)";
     btn.addEventListener("click", () => {
       currentPage = i;
       renderMovies();
@@ -2357,21 +2505,14 @@ function renderPager() {
 function applyFilters() {
   const search = searchInput.value.toLowerCase();
   const min = parseFloat(minRating.value);
-  const selectedGenreBtns = genresContainer.querySelectorAll(".genre-btn.active");
-  const selectedGenres = [...selectedGenreBtns].map(btn => btn.textContent);
+  const selectedGenres = [...genresContainer.querySelectorAll(".genre-btn.active")].map(btn => btn.textContent);
 
   filteredMovies = MOVIES.filter(movie => {
-    const matchesSearch =
-      movie.title.toLowerCase().includes(search) ||
-      movie.director.toLowerCase().includes(search) ||
-      movie.genres.some(g => g.toLowerCase().includes(search));
-
-    const matchesRating = !movie.rating || movie.rating >= min;
-    const matchesGenre =
-      selectedGenres.length === 0 ||
-      selectedGenres.some(g => movie.genres.includes(g));
-    const matchesFav =
-      showFavs.classList.contains("active") ? favorites.includes(movie.id) : true;
+    const matchesSearch = movie.title.toLowerCase().includes(search) || 
+                          (movie.director && movie.director.toLowerCase().includes(search));
+    const matchesRating = (movie.rating || 0) >= min;
+    const matchesGenre = selectedGenres.length === 0 || selectedGenres.some(g => movie.genres.includes(g));
+    const matchesFav = showFavs.classList.contains("active") ? favorites.includes(movie.id) : true;
 
     return matchesSearch && matchesRating && matchesGenre && matchesFav;
   });
@@ -2384,66 +2525,55 @@ function applyFilters() {
 function applySort() {
   const value = sortSelect.value;
   filteredMovies.sort((a, b) => {
-    switch (value) {
-      case "rating": return (b.rating ?? 0) - (a.rating ?? 0);
-      case "year_desc": return b.year - a.year;
-      case "year_asc": return a.year - b.year;
-      default: return b.rating - a.rating; // popular default
-    }
+    if (value === "rating") return (b.rating || 0) - (a.rating || 0);
+    if (value === "year_asc") return a.year - b.year;
+    // Default: Sort by newest year (Latest Movies)[cite: 2]
+    return b.year - a.year;
   });
 }
 
 /* === Favorites === */
 function toggleFavorite(id) {
-  if (favorites.includes(id)) {
-    favorites = favorites.filter(f => f !== id);
-  } else {
-    favorites.push(id);
-  }
+  favorites = favorites.includes(id) ? favorites.filter(f => f !== id) : [...favorites, id];
   localStorage.setItem("favorites", JSON.stringify(favorites));
   renderMovies();
 }
 
-/* === Modal === */
+/* === Modal Logic === */
 function openModal(movie) {
   modalPoster.src = movie.poster;
   modalTitle.textContent = movie.title;
-  modalMeta.textContent = `${movie.year} • ⭐ ${movie.rating ?? "N/A"} • Dir. ${movie.director}`;
+  modalMeta.textContent = `${movie.year} • ⭐ ${movie.rating ?? "N/A"} • Dir. ${movie.director || "Unknown"}`;
   modalOverview.textContent = movie.overview;
   modalGenres.innerHTML = movie.genres.map(g => `<span class="genre-btn">${g}</span>`).join(" ");
-  modalOTT.innerHTML = movie.ott?.length
-  ? movie.ott.map(p => {
-      // Get the logo URL from the ottLogos object
-      const logoUrl = ottLogos[p.platform];
-      
-      // Use the logo if it exists, otherwise fall back to text
-      const content = logoUrl
-        ? `<img src="${logoUrl}" alt="${p.platform}" class="ott-logo">`
-        : p.platform; // Fallback to text if logo isn't found
-        
-      return `<a href="${p.url}" target="_blank" class="ott-link">${content}</a>`;
-    }).join(" ") // Join with a space instead of a bullet
-  : "<em>No streaming info</em>";
+  
+  modalOTT.innerHTML = movie.ott?.length 
+    ? movie.ott.map(p => {
+        const logoUrl = ottLogos[p.platform];
+        const content = logoUrl ? `<img src="${logoUrl}" alt="${p.platform}" class="ott-logo">` : p.platform;
+        return `<a href="${p.url}" target="_blank" class="ott-link">${content}</a>`;
+      }).join(" ") 
+    : "<em>No streaming info available</em>";
+
   modalFav.textContent = favorites.includes(movie.id) ? "❤️" : "♡";
   modalFav.onclick = () => toggleFavorite(movie.id);
   modal.classList.add("open");
 }
 
 modalClose.addEventListener("click", () => modal.classList.remove("open"));
-modal.addEventListener("click", e => {
-  if (e.target === modal) modal.classList.remove("open");
-});
+modal.addEventListener("click", e => { if (e.target === modal) modal.classList.remove("open"); });
 
-/* === Event Listeners === */
+/* === Event Listeners[cite: 2] === */
 searchInput.addEventListener("input", applyFilters);
 sortSelect.addEventListener("change", applyFilters);
 minRating.addEventListener("input", () => {
   ratingLabel.textContent = `${minRating.value}+`;
   applyFilters();
 });
+
 clearBtn.addEventListener("click", () => {
   searchInput.value = "";
-  sortSelect.value = "popular";
+  sortSelect.value = "year_desc";
   minRating.value = 0;
   ratingLabel.textContent = "0+";
   genresContainer.querySelectorAll(".genre-btn").forEach(btn => btn.classList.remove("active"));
@@ -2451,18 +2581,20 @@ clearBtn.addEventListener("click", () => {
   showFavs.classList.remove("active");
   applyFilters();
 });
+
 showAll.addEventListener("click", () => {
   showAll.classList.add("active");
   showFavs.classList.remove("active");
   applyFilters();
 });
+
 showFavs.addEventListener("click", () => {
   showFavs.classList.add("active");
   showAll.classList.remove("active");
   applyFilters();
 });
 
-/* === Genres === */
+/* === Initialization[cite: 2] === */
 function renderGenres() {
   const allGenres = new Set();
   MOVIES.forEach(m => m.genres.forEach(g => allGenres.add(g)));
@@ -2479,6 +2611,9 @@ function renderGenres() {
   });
 }
 
-/* === Init === */
-renderGenres();
-applyFilters();
+// Run only when the page is fully loaded to ensure HTML elements exist[cite: 2]
+document.addEventListener("DOMContentLoaded", () => {
+  sortSelect.value = "year_desc"; // Default to newest[cite: 2]
+  renderGenres();
+  applyFilters();
+});
