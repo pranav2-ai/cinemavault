@@ -2386,7 +2386,62 @@ const MOVIES = [
   music: "Sean Roldan",
   awards: []
 },
-
+{
+  id: 160,
+  title: "Sambhavam Adhyayam Onnu",
+  year: 2026,
+  rating: 7.4,
+  genres: ["Supernatural", "Psychological", "Thriller", "Malayalam"],
+  overview: "A police officer investigating a disappearance in a mysterious forest gets trapped inside a terrifying time loop tied to an ancient curse.",
+  poster: "https://popcornreviewss.com/wp-content/uploads/2026/04/Sambhavam-Adhyayam-Onnu-2026-Thriller-Malayalam-Movie-Review.jpg",
+  ott: [
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sambhavam-adhyayam-onnu/1271627757" }
+  ],
+  director: "Jithu Satheesan Mangalathu",
+  music: "Godwin Thomas",
+  awards: []
+},
+{
+  id: 161,
+  title: "Ashakal Aayiram",
+  year: 2026,
+  rating: 7.1,
+  genres: ["Family", "Drama", "Malayalam"],
+  overview: "A family drama exploring relationships, aspirations, and emotional conflicts across generations.",
+  poster: "https://th.bing.com/th/id/OSK.zT4iIMLPPTNQ3d09irBw6U5uCU02xxq3gHS0nLoMbW8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [{platform:"zee5",url:"https://www.zee5.com/movies/details/ashakal-aayiram/0-0-1z5946522"}],
+  director: "G. Prajith",
+  music: "Sanal Dev",
+  awards: []
+},
+{
+  id: 162,
+  title: "Thaai Kizhavi",
+  year: 2026,
+  rating: 7.8,
+  genres: ["Comedy", "Drama", "Tamil"],
+  overview: "An elderly woman becomes the center of an unexpected chain of events that transforms the lives of everyone around her.",
+  poster: "https://images.filmibeat.com/img/280x383/popcorn/movie_posters/thaaikizhavi-20251226182500-24051.jpg",
+  ott: [{platform:"jiohotstar",url:"https://www.hotstar.com/in/movies/thaai-kizhavi/1271616921"}],
+  director: "Sivakumar Murugesan",
+  music: "Nivas K. Prasanna",
+  awards: []
+},
+{
+  id: 163,
+  title: "Thalaivar Thambi Thalaimaiyil",
+  year: 2026,
+  rating: 7.6,
+  genres: ["Political", "Satire", "Comedy", "Drama", "Tamil"],
+  overview: "A village council president struggles to maintain order after an unexpected death disrupts a wedding eve.",
+  poster: "https://tse3.mm.bing.net/th/id/OIP.mSE4vYvkZsrZPXdNJnD0xAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [
+    { platform: "netflix", url: "https://www.netflix.com/in/title/82709712" }
+  ],
+  director: "Nithish Sahadev",
+  music: "Vishnu Vijay",
+  awards: []
+}
 ];
 
 
