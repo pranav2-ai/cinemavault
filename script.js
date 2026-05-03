@@ -1835,7 +1835,7 @@ const MOVIES = [
     },
     {
       platform: 'youtube',
-      url: "https://youtu.be/_mMgACjwbOU?si=etyUCeDQWGduBUOc"
+      url: "https://youtu.be/TR5Q0gnAPGU?si=l-d20pEvvSjX6F3h"
     }
   ],
   director: "Ramesh Sippy",
@@ -2440,6 +2440,60 @@ const MOVIES = [
   ],
   director: "Nithish Sahadev",
   music: "Vishnu Vijay",
+  awards: []
+},
+{
+  id: 164,
+  title: "Vaazha II: Biopic of a Billion Bros",
+  year: 2026,
+  rating: 8.5,
+  genres: ["Comedy", "Drama", "Coming-of-age", "Malayalam"],
+  overview: "Four friends branded as troublemakers face adulthood, distance, and emotional upheaval as they try to find their own paths in life.",
+  poster: "https://images.filmibeat.com/img/popcorn/movie_posters/vaazha2-20240826145830-23122.jpg",
+  ott: [
+    { platform: "jiohotstar", url: "" }
+  ],
+  director: "Savin S. A.",
+  music: "A Team",
+  awards: []
+},
+{
+  id: 165,
+  title: "Jana Nayagan",
+  year: 2026,
+  rating: 7.9,
+  genres: ["Political", "Action", "Drama", "Tamil"],
+  overview: "A politically charged action drama following a charismatic leader who rises amid conflict, power struggles, and public unrest.",
+  poster: "https://static.moviecrow.com/gallery/20250127/241005-jana%20nayagam.jpg",
+  ott: [{platform:"",url:""}],
+  director: "H. Vinoth",
+  music: "Anirudh Ravichander",
+  awards: []
+},
+{
+  id: 166,
+  title: "Karuppu",
+  year: 2026,
+  rating: 7.8,
+  genres: ["Action", "Drama", "Tamil"],
+  overview: "A lawyer leads a double life and becomes a fierce protector when buried local conflicts erupt into violence.",
+  poster: "https://static.moviecrow.com/movies/5206-karuppu/256319-256316-Karuppu%20Release%20Date%20Suriya-px214.jpg",
+  ott: [],
+  director: "RJ Balaji",
+  music: "Sai Abhyankkar",
+  awards: []
+},
+{
+  id: 167,
+  title: "Kara",
+  year: 2026,
+  rating: 7.5,
+  genres: ["Heist", "Crime", "Drama", "Tamil"],
+  overview: "Set during the 1991 fuel crisis, a desperate man plans one last risky heist that could change his life forever.",
+  poster: "https://static.toiimg.com/photo/msid-129768582/129768582.jpg?24436",
+  ott: [],
+  director: "Vignesh Raja",
+  music: "G. V. Prakash Kumar",
   awards: []
 }
 ];
