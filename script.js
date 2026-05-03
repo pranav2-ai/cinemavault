@@ -1281,7 +1281,7 @@ const MOVIES = [
   overview:
     "A thrilling tale of a Formula 1 racer overcoming personal and professional challenges to claim victory on the world stage.",
   poster: "https://media2.firstshowing.net/firstshowing/img16/F1MoviePittpostermainbigFull591.jpg",
-  ott: [],
+  ott: [{platform:"appletv",url:"https://tv.apple.com/in/movie/f1-the-movie/umc.cmc.3t6dvnnr87zwd4wmvpdx5came?playableId=tvs.sbd.9001%3A1832047719"}],
   director: "Joseph Kosinski",
   music: "	Hans Zimmer",
   awards: []
@@ -2495,6 +2495,49 @@ const MOVIES = [
   director: "Vignesh Raja",
   music: "G. V. Prakash Kumar",
   awards: []
+},
+{
+  id: 168,
+  title: "Michael",
+  year: 2026,
+  rating: 7.6,
+  genres: ["Biography", "Drama", "Music", "English"],
+  overview: "A sweeping biographical drama tracing the rise of Michael Jackson from gifted child performer to global pop phenomenon.",
+  poster: "https://www.undergroundpress.co.za/images/2026/michael/Michael_Movie_Poster_V1_FMjpg_UY3000_.jpg",
+  ott: [],
+  director: "Antoine Fuqua",
+  music: "John Powell",
+  awards: []
+},
+{
+  id: 169,
+  title: "Project Hail Mary",
+  year: 2026,
+  rating: 8.3,
+  genres: ["Science Fiction", "Adventure", "Drama", "English"],
+  overview: "A school teacher awakens alone aboard a spacecraft with no memory, only to discover he may be humanity’s final hope for survival.",
+  poster: "https://static0.srcdn.com/wordpress/wp-content/uploads/sharedimages/2026/03/project-hail-mary-poster.jpg?q=49&fit=contain&w=480&dpr=2",
+  ott: [
+    { platform: "prime", url: "" }
+  ],
+  director: "Phil Lord & Christopher Miller",
+  music: "Daniel Pemberton",
+  awards: []
+},
+{
+  id: 170,
+  title: "Avatar: Fire and Ash",
+  year: 2025,
+  rating: 7.7,
+  genres: ["Science Fiction", "Adventure", "Fantasy", "English"],
+  overview: "Jake Sully and Neytiri face a dangerous new Na'vi faction as Pandora is drawn into another devastating conflict.",
+  poster: "https://media2.firstshowing.net/firstshowing/img17/Avatarfireashposter3mainimage59.jpg",
+  ott: [
+    { platform: "", url: "" }
+  ],
+  director: "James Cameron",
+  music: "Simon Franglen",
+  awards: []
 }
 ];
 
@@ -2510,7 +2553,8 @@ const ottLogos = {
   manomax: 'https://images.justwatch.com/icon/208852613/s100/manoramamax.jpeg',
   sunnxt: 'https://m.media-amazon.com/images/I/A13sXw0T8qL.png',
   youtube: 'https://pngimg.com/uploads/youtube/youtube_PNG102352.png',
-  aha: 'https://images.seeklogo.com/logo-png/46/1/aha-ott-logo-png_seeklogo-463455.png'
+  aha: 'https://images.seeklogo.com/logo-png/46/1/aha-ott-logo-png_seeklogo-463455.png',
+  appletv:'https://i.pinimg.com/originals/2b/66/23/2b6623a5d83905b6c35643fd0fbfe38b.jpg'
 };
 
 
