@@ -23,7 +23,8 @@ const MOVIES = [
    ott: [
     {platform: 'jiohotstar', url: 'https://www.hotstar.com/in/movies/the-dark-knight/1971000395?search_query=The+Dark+Knight+Rises'},
     {platform: 'prime', url: 'https://www.primevideo.com/detail/0JKQMPWCE3RTK5TFZCSIC3H7XO/ref=atv_sr_fle_c_sr3aca3c_2_1_2?sr=1-2&pageTypeIdSource=ASIN&pageTypeId=B0CPTSF27C&qid=1760534646042'},
-    {platform: 'netflix', url: 'https://www.netflix.com/in/title/70079583'}
+    {platform: 'netflix', url: 'https://www.netflix.com/in/title/70079583'},
+    {platform:"cineby",url:"https://www.cineby.sc/movie/155"}
    ],
    director:'Christopher Nolan', music:'Hans Zimmer', awards:['Academy Award for Best Supporting Actor (Heath Ledger)','BAFTA for Best Supporting Actor']},
 
@@ -1281,7 +1282,11 @@ const MOVIES = [
   overview:
     "A thrilling tale of a Formula 1 racer overcoming personal and professional challenges to claim victory on the world stage.",
   poster: "https://media2.firstshowing.net/firstshowing/img16/F1MoviePittpostermainbigFull591.jpg",
-  ott: [{platform:"appletv",url:"https://tv.apple.com/in/movie/f1-the-movie/umc.cmc.3t6dvnnr87zwd4wmvpdx5came?playableId=tvs.sbd.9001%3A1832047719"}],
+  ott: [{platform:"appletv",url:"https://tv.apple.com/in/movie/f1-the-movie/umc.cmc.3t6dvnnr87zwd4wmvpdx5came?playableId=tvs.sbd.9001%3A1832047719"},
+    {
+      platform:"cineby",url:"https://www.cineby.sc/movie/911430"
+    }
+  ],
   director: "Joseph Kosinski",
   music: "	Hans Zimmer",
   awards: []
@@ -1332,6 +1337,10 @@ const MOVIES = [
     {
       platform: 'mxplayer',
       url: 'https://www.mxplayer.in/movie/watch-sarpatta-parambarai-movie-online-964ee4d64d99598f12bdd370a74d5f77?watch=true'
+    },
+    {
+      platform:"cineby",
+      url:"https://www.cineby.sc/movie/796011"
     }
   ],
   director: "Pa. Ranjith",
@@ -2322,7 +2331,9 @@ const MOVIES = [
   genres: ["Action", "Thriller", "Malayalam"],
   overview: "A revenge-driven sequel that follows the aftermath of deadly betrayal.",
   poster: "https://media.assettype.com/gulfnews/2026-02-03/sk295u9l/202602033660007.jpg?w=640&auto=format%2Ccompress&fit=max",
-  ott: [{platform:"jiohotstar",url:""}],
+  ott: [{platform:"jiohotstar",url:""},
+    {platform:"cineby",url:"https://www.cineby.sc/movie/1582770"}
+  ],
   director: "Aditya Dhar",
   music: "Shashwat Sachdev",
   awards: []
@@ -2336,7 +2347,11 @@ const MOVIES = [
   overview: "An aspiring musician’s quiet life turns strange after he encounters a mysterious young spirit who changes everything around him.",
   poster: "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sarvam-maya-et00473343-1766390933.jpg",
   ott: [
-    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sarvam-maya/1271525191" }
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sarvam-maya/1271525191" },
+    {
+      platform: 'cineby',
+      url: 'https://www.cineby.sc/movie/1473354'
+    }
   ],
   director: "Akhil Sathyan",
   music: "Justin Prabhakaran",
@@ -2395,7 +2410,8 @@ const MOVIES = [
   overview: "A police officer investigating a disappearance in a mysterious forest gets trapped inside a terrifying time loop tied to an ancient curse.",
   poster: "https://popcornreviewss.com/wp-content/uploads/2026/04/Sambhavam-Adhyayam-Onnu-2026-Thriller-Malayalam-Movie-Review.jpg",
   ott: [
-    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sambhavam-adhyayam-onnu/1271627757" }
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/sambhavam-adhyayam-onnu/1271627757" },
+    {platform:"cineby",url:"https://www.cineby.sc/movie/1469458"}
   ],
   director: "Jithu Satheesan Mangalathu",
   music: "Godwin Thomas",
@@ -2504,7 +2520,7 @@ const MOVIES = [
   genres: ["Biography", "Drama", "Music", "English"],
   overview: "A sweeping biographical drama tracing the rise of Michael Jackson from gifted child performer to global pop phenomenon.",
   poster: "https://www.undergroundpress.co.za/images/2026/michael/Michael_Movie_Poster_V1_FMjpg_UY3000_.jpg",
-  ott: [],
+  ott: [{platform:"cineby",url:"https://www.cineby.sc/movie/936075"}],
   director: "Antoine Fuqua",
   music: "John Powell",
   awards: []
@@ -2518,7 +2534,9 @@ const MOVIES = [
   overview: "A school teacher awakens alone aboard a spacecraft with no memory, only to discover he may be humanity’s final hope for survival.",
   poster: "https://static0.srcdn.com/wordpress/wp-content/uploads/sharedimages/2026/03/project-hail-mary-poster.jpg?q=49&fit=contain&w=480&dpr=2",
   ott: [
-    { platform: "prime", url: "" }
+    { platform: "prime", url: "" ,
+      platform:"cineby",url:"https://www.cineby.sc/movie/687163?play=true"
+    }
   ],
   director: "Phil Lord & Christopher Miller",
   music: "Daniel Pemberton",
@@ -2533,11 +2551,27 @@ const MOVIES = [
   overview: "Jake Sully and Neytiri face a dangerous new Na'vi faction as Pandora is drawn into another devastating conflict.",
   poster: "https://media2.firstshowing.net/firstshowing/img17/Avatarfireashposter3mainimage59.jpg",
   ott: [
-    { platform: "", url: "" }
+    { platform: "cineby", url: "https://www.cineby.sc/movie/83533" }
   ],
   director: "James Cameron",
   music: "Simon Franglen",
   awards: []
+},
+{
+  id: 171,
+  title: "Stranger Things",
+  year: 2016,
+  rating: 8.7,
+  genres: ["Science Fiction", "Horror", "Drama", "Mystery", "English"],
+  overview: "When a young boy disappears in a small town, his friends uncover secret experiments, terrifying supernatural forces, and a mysterious girl with extraordinary powers.",
+  poster: "https://popcornreviewss.com/wp-content/uploads/2022/05/Stranger-Things-2017-Fantasy-Horror-Series-Review.jpg",
+  ott: [
+    { platform: "netflix", url: "https://www.netflix.com/title/80057281" },
+    {platform:"cineby",url:"https://www.cineby.sc/tv/66732"}
+  ],
+  director: "The Duffer Brothers",
+  music: "Kyle Dixon & Michael Stein",
+  awards: ["Primetime Emmy Awards", "Screen Actors Guild Awards"]
 }
 ];
 
@@ -2554,7 +2588,8 @@ const ottLogos = {
   sunnxt: 'https://m.media-amazon.com/images/I/A13sXw0T8qL.png',
   youtube: 'https://pngimg.com/uploads/youtube/youtube_PNG102352.png',
   aha: 'https://images.seeklogo.com/logo-png/46/1/aha-ott-logo-png_seeklogo-463455.png',
-  appletv:'https://i.pinimg.com/originals/2b/66/23/2b6623a5d83905b6c35643fd0fbfe38b.jpg'
+  appletv:'https://i.pinimg.com/originals/2b/66/23/2b6623a5d83905b6c35643fd0fbfe38b.jpg',
+  cineby:"https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/c7/43/c6c74366-e90d-d80f-9441-89c582c9e8b5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x630wa.png"
 };
 
 
