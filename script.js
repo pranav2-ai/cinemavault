@@ -2318,7 +2318,9 @@ const MOVIES = [
   genres: ["Action", "Thriller", "Malayalam"],
   overview: "An upcoming action thriller centered around revenge, betrayal, and power struggles.",
   poster: "https://upload.wikimedia.org/wikipedia/en/c/ce/Dhurandhar_poster.jpg",
-  ott: [{platform:"netflix",url:"https://www.netflix.com/in/title/82156122"}],
+  ott: [{platform:"netflix",url:"https://www.netflix.com/in/title/82156122"},
+    {platform:"jiohotstar",url:"https://www.hotstar.com/in/movies/dhurandhar/1271642559?search_query=dhurandhar"}
+  ],
   director: "Aditya Dhar",
   music: "Shashwat Sachdev",
   awards: []
@@ -2331,8 +2333,8 @@ const MOVIES = [
   genres: ["Action", "Thriller", "Malayalam"],
   overview: "A revenge-driven sequel that follows the aftermath of deadly betrayal.",
   poster: "https://media.assettype.com/gulfnews/2026-02-03/sk295u9l/202602033660007.jpg?w=640&auto=format%2Ccompress&fit=max",
-  ott: [{platform:"jiohotstar",url:""},
-    {platform:"cineby",url:"https://www.cineby.sc/movie/1582770"}
+  ott: [{platform:"jiohotstar",url:"https://www.hotstar.com/in/movies/dhurandhar-the-revenge/1271641088?search_query=dhur"},
+    {platform:"netflix",url:"https://www.netflix.com/in/title/82813021"}
   ],
   director: "Aditya Dhar",
   music: "Shashwat Sachdev",
@@ -2494,7 +2496,7 @@ const MOVIES = [
   genres: ["Action", "Drama", "Tamil"],
   overview: "A lawyer leads a double life and becomes a fierce protector when buried local conflicts erupt into violence.",
   poster: "https://static.moviecrow.com/movies/5206-karuppu/256319-256316-Karuppu%20Release%20Date%20Suriya-px214.jpg",
-  ott: [],
+  ott: [{platform:"prime",url:"https://www.primevideo.com/detail/0IEWLNTKVQ78JHWWUUA701BFIF?ref_=atv_sr_fle_c_sre30869_pvsearchresults_1_1"}],
   director: "RJ Balaji",
   music: "Sai Abhyankkar",
   awards: []
@@ -2507,7 +2509,7 @@ const MOVIES = [
   genres: ["Heist", "Crime", "Drama", "Tamil"],
   overview: "Set during the 1991 fuel crisis, a desperate man plans one last risky heist that could change his life forever.",
   poster: "https://static.toiimg.com/photo/msid-129768582/129768582.jpg?24436",
-  ott: [],
+  ott: [{platform:"netflix",url:"https://www.netflix.com/in/title/82057588"}],
   director: "Vignesh Raja",
   music: "G. V. Prakash Kumar",
   awards: []
@@ -2520,7 +2522,11 @@ const MOVIES = [
   genres: ["Biography", "Drama", "Music", "English"],
   overview: "A sweeping biographical drama tracing the rise of Michael Jackson from gifted child performer to global pop phenomenon.",
   poster: "https://www.undergroundpress.co.za/images/2026/michael/Michael_Movie_Poster_V1_FMjpg_UY3000_.jpg",
-  ott: [{platform:"cineby",url:"https://www.cineby.sc/movie/936075"}],
+  ott: [{platform:"cineby",url:"https://www.cineby.sc/movie/936075"},
+    {
+      platform:"prime",url:"https://www.primevideo.com/detail/0SQCJF7Q787F6DG4Z8BKJFZ7R9?ref_=atv_sr_fle_c_sr0ef1cf_pvsearchresults_1_1"
+    }
+  ],
   director: "Antoine Fuqua",
   music: "John Powell",
   awards: []
@@ -2534,7 +2540,7 @@ const MOVIES = [
   overview: "A school teacher awakens alone aboard a spacecraft with no memory, only to discover he may be humanity’s final hope for survival.",
   poster: "https://static0.srcdn.com/wordpress/wp-content/uploads/sharedimages/2026/03/project-hail-mary-poster.jpg?q=49&fit=contain&w=480&dpr=2",
   ott: [
-    { platform: "prime", url: "" ,
+    { platform: "prime", url: "https://www.primevideo.com/detail/0J0SQMKFG51K9S3UTU9SDEMT7D?ref_=atv_dl_rdr" ,
       platform:"cineby",url:"https://www.cineby.sc/movie/687163?play=true"
     }
   ],
@@ -2572,7 +2578,103 @@ const MOVIES = [
   director: "The Duffer Brothers",
   music: "Kyle Dixon & Michael Stein",
   awards: ["Primetime Emmy Awards", "Screen Actors Guild Awards"]
+},
+{
+  id: 172,
+  title: "Loki",
+  year: 2021,
+  rating: 8.2,
+  genres: ["Science Fiction", "Fantasy", "Action", "Adventure", "English"],
+  overview: "After stealing the Tesseract, Loki is captured by the Time Variance Authority and drawn into a mission that threatens the fate of the multiverse.",
+  poster: "",
+  ott: [
+    { platform: "jiohotstar", url: "https://www.hotstar.com/in/shows/loki/1260063451?search_query=loki" }
+  ],
+  director: "Kate Herron, Justin Benson & Aaron Moorhead",
+  music: "Natalie Holt",
+  awards: ["Primetime Emmy Award nominations"]
+},
+
+  
+  {
+    id: 174,
+    title: "Dridam",
+    year: 2026,
+    rating: 7.4,
+    genres: ["Crime", "Thriller", "Malayalam"],
+    overview: "A crime thriller following a tense investigation led by a determined officer as hidden truths begin to surface.",
+    poster: "https://cdn.district.in/movies-assets/images/cinema/Dridam-poster-f5adaff0-3188-11f1-9e6a-59342a640b51.jpg?im=Resize,width=400",
+    ott: [
+      {
+        platform: "jiohotstar",
+        url: "https://www.hotstar.com/in/movies/dridam/1271648014"
+      }
+    ],
+    director: "Martin Joseph",
+    music: "Sreerag Saji",
+    awards: []
+  },
+
+  {
+    id: 175,
+    title: "Drishyam 3",
+    year: 2026,
+    rating: 8.6,
+    genres: ["Crime", "Thriller", "Drama", "Malayalam"],
+    overview: "Georgekutty returns in the final chapter of the acclaimed thriller saga, facing consequences that test his family and the secrets he protected.",
+    poster: "https://tse1.mm.bing.net/th/id/OIF.O2y2Y1ldrQBbwiRWoBpjDA?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+    ott: [
+      {
+        platform: "prime",
+        url: "https://www.primevideo.com/detail/0R9LD1VHGWBGMWFEQ9TQAO1ESE?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1"
+      }
+    ],
+    director: "Jeethu Joseph",
+    music: "Anil Johnson",
+    awards: []
+  },
+  {
+  id: 176,
+  title: "Athiradi",
+  year: 2026,
+  rating: 8.2,
+  genres: ["Action", "Comedy", "Drama", "Malayalam"],
+  overview: "An energetic student, Samkutty, revives a banned college festival and sparks a fierce rivalry that turns celebration into chaos.",
+  poster: "https://m.media-amazon.com/images/M/MV5BOTc0NjhhNWYtZThjNS00NThmLTgxODEtNzdhMWJhMjk0NTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  ott: [
+    {
+      platform: "sonyliv",
+      url: "https://www.sonyliv.com/movies/athiradi-1090534907"
+    }
+  ],
+  director: "Arun Anirudhan",
+  music: "Vishnu Vijay",
+  awards: []
+},
+{
+  id: 177,
+  title: "Teach You a Lesson",
+  year: 2026,
+  rating: 8.3,
+  genres: ["Action", "Drama", "School", "Korean"],
+  overview: "As violence and disorder spread through schools, a government-backed Educational Rights Protection Agency sends elite supervisors to restore order using unconventional methods and challenge a broken education system.",
+  poster: "https://thfvnext.bing.com/th?id=OIF.yd2V0wmR1LD8%2bBJF5IQZYg&cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/81947300"
+    },
+    {
+      platform: "cineby",
+      url:"https://www.cineby.at/tv/276161"
+    }
+  ],
+  director: "Hong Jong-chan",
+  music: "",
+  awards: [],
+  episodes: 10
 }
+
 ];
 
 
@@ -2627,16 +2729,14 @@ const modalOTT = document.getElementById("modalott");
 const modalFav = document.getElementById("modalFav");
 const modalClose = document.getElementById("modalClose");
 
-/* === Render Functions === */
 function renderMovies() {
-  if (!grid) return; // Safety check[cite: 2]
+  if (!grid) return;
   grid.innerHTML = "";
 
   const start = (currentPage - 1) * MOVIES_PER_PAGE;
   const end = start + MOVIES_PER_PAGE;
   const pageMovies = filteredMovies.slice(start, end);
 
-  // Show "No Results" if list is empty[cite: 2]
   if (pageMovies.length === 0) {
     grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--muted);">No movies found. Try adjusting your filters.</div>`;
   }
@@ -2644,6 +2744,8 @@ function renderMovies() {
   pageMovies.forEach(movie => {
     const card = document.createElement("div");
     card.className = "card";
+    
+    // Standard card layout
     card.innerHTML = `
       <img class="poster" src="${movie.poster}" alt="${movie.title}" onerror="this.src='https://via.placeholder.com/200x300?text=No+Poster'">
       <div class="card-body">
@@ -2657,10 +2759,17 @@ function renderMovies() {
       </div>
     `;
 
-    card.querySelector(".poster").addEventListener("click", () => openModal(movie));
+    // Trigger Popup Modal on card click
+    card.addEventListener("click", (e) => {
+      // Prevent opening the modal if the user clicked the favorite button
+      if (e.target.closest('.fav')) return;
+      openModal(movie);
+    });
+
+    // Favorite button logic
     card.querySelector(".fav").addEventListener("click", e => {
       e.stopPropagation();
-      toggleFavorite(movie.id);
+      toggleFavorite(movie.id, e.target);
     });
 
     grid.appendChild(card);
@@ -2711,22 +2820,56 @@ function applyFilters() {
 }
 
 function applySort() {
-  const value = sortSelect.value;
-  filteredMovies.sort((a, b) => {
-    if (value === "rating") return (b.rating || 0) - (a.rating || 0);
-    if (value === "year_asc") return a.year - b.year;
-    // Default: Sort by newest year (Latest Movies)[cite: 2]
-    return b.year - a.year;
-  });
-}
+      const value = sortSelect.value;
+      
+      if (value === "popular") {
+        // High ID = Recently added, Low ID = Oldest added
+        // Sorting b.id - a.id puts higher IDs first
+        filteredMovies.sort((a, b) => b.id - a.id); 
+      } else if (value === "rating") {
+        filteredMovies.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+      } else if (value === "year_asc") {
+        filteredMovies.sort((a, b) => a.year - b.year);
+      } else {
+        // Default year_desc: Year (new → old)
+        filteredMovies.sort((a, b) => b.year - a.year);
+      }
+    }
+
 
 /* === Favorites === */
-function toggleFavorite(id) {
-  favorites = favorites.includes(id) ? favorites.filter(f => f !== id) : [...favorites, id];
+function toggleFavorite(id, btnElement = null) {
+  const isFav = favorites.includes(id);
+  
+  if (isFav) {
+    favorites = favorites.filter(f => f !== id);
+  } else {
+    favorites = [...favorites, id];
+  }
   localStorage.setItem("favorites", JSON.stringify(favorites));
-  renderMovies();
-}
 
+  // If a specific button was clicked, animate it without redrawing the whole grid
+  if (btnElement) {
+    btnElement.textContent = favorites.includes(id) ? "❤️" : "♡";
+    
+    // Trigger CSS heartbeat animation
+    btnElement.classList.remove("beat");
+    void btnElement.offsetWidth; // Force DOM reflow to restart animation
+    btnElement.classList.add("beat");
+
+    // If we are currently in the "Favorites" tab and un-favoriting, smoothly slide it out
+    if (showFavs.classList.contains("active") && !favorites.includes(id)) {
+      const cardToHide = btnElement.closest('.card');
+      if (cardToHide) {
+        cardToHide.style.transform = "scale(0.8) translateY(20px)";
+        cardToHide.style.opacity = "0";
+        setTimeout(() => applyFilters(), 400); // Re-render grid after fade out
+      }
+    }
+  } else {
+    renderMovies(); // Fallback
+  }
+}
 /* === Modal Logic === */
 function openModal(movie) {
   modalPoster.src = movie.poster;
@@ -2801,7 +2944,19 @@ function renderGenres() {
 
 // Run only when the page is fully loaded to ensure HTML elements exist[cite: 2]
 document.addEventListener("DOMContentLoaded", () => {
-  sortSelect.value = "year_desc"; // Default to newest[cite: 2]
+  sortSelect.value = "popular"; // Default to newest[cite: 2]
   renderGenres();
   applyFilters();
 });
+
+/* === Interactive Light Flares === */
+document.addEventListener("mousemove", (e) => {
+  // Calculate mouse position as a percentage of the screen
+  const x = (e.clientX / window.innerWidth) * 100;
+  const y = (e.clientY / window.innerHeight) * 100;
+
+  // Update the CSS variables on the body
+  document.body.style.setProperty("--mouseX", `${x}%`);
+  document.body.style.setProperty("--mouseY", `${y}%`);
+});
+
