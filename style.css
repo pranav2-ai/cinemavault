@@ -4,7 +4,7 @@
   --card-bg: #1e1e1e;
   --text-color: #e0e0e0;
   --muted: #888;
-  --primary: #bb86fc;
+  --primary: #d4af37; /* Updated to warm theater gold */
   --border-color: #333;
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --radius: 8px;
@@ -14,24 +14,72 @@
   box-sizing: border-box;
 }
 
+/* --- Body & Animated Background --- */
 body {
   margin: 0;
   font-family: var(--font-family);
-  background-color: var(--bg-color);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* A slightly warmer, incredibly dark gradient to anchor the theater vibe */
+  background: linear-gradient(-45deg, #0a0505, #121212, #1a0f0f, #0d0a0a);
+  background-size: 400% 400%;
+  animation: ambientBackground 18s ease infinite;
+  
+  /* Ensure relative positioning so the pseudo-element works */
+  position: relative;
+  min-height: 100vh;
+  
+  /* Set default positions for the interactive light flares */
+  --mouseX: 50%;
+  --mouseY: 50%;
 }
 
+/* Keyframes for the panning gradient */
+@keyframes ambientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Cinematic floating light flares behind the content */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  /* Deep Velvet Red tracking the mouse, Dim Warm Gold in the parallax background */
+  background: 
+    radial-gradient(circle at var(--mouseX) var(--mouseY), rgba(163, 15, 35, 0.09) 0%, transparent 50%),
+    radial-gradient(circle at calc(100% - var(--mouseX)) calc(100% - var(--mouseY)), rgba(212, 175, 55, 0.05) 0%, transparent 60%);
+  
+  /* A subtle pulse to keep it alive even when the mouse is still */
+  animation: pulseLight 4s ease-in-out infinite alternate;
+  transition: background 0.2s ease-out; /* Smooths out the mouse tracking */
+}
+
+/* Replaced the drifting animation with a gentle pulse */
+@keyframes pulseLight {
+  0% { opacity: 0.7; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
+
+/* --- App Container --- */
 .app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
-h1, h2, h3 {
-  margin-top: 0;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
+
+h1, h2, h3 { margin-top: 0; }
 
 .muted {
   color: var(--muted);
@@ -60,10 +108,16 @@ header {
   display: flex;
   align-items: center;
   gap: 16px;
+  cursor: default;
 }
 
 .brand .logo svg {
   color: var(--primary);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.brand:hover .logo svg {
+  transform: scale(1.15) rotate(10deg);
 }
 
 .controls {
@@ -82,6 +136,11 @@ header {
   position: absolute;
   left: 12px;
   color: var(--muted);
+  transition: color 0.3s;
+}
+
+.search:focus-within svg {
+  color: var(--primary);
 }
 
 #searchInput, #sortSelect {
@@ -90,10 +149,18 @@ header {
   color: var(--text-color);
   border-radius: var(--radius);
   padding: 8px 12px;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
 }
 
 #searchInput {
   padding-left: 36px;
+}
+
+#searchInput:focus, #sortSelect:focus {
+  border-color: var(--primary);
+  /* Updated shadow to match the gold accent */
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+  outline: none;
 }
 
 /* --- Buttons --- */
@@ -104,11 +171,16 @@ header {
   padding: 8px 14px;
   border-radius: var(--radius);
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .page-btn:hover, #clearBtn:hover {
   background-color: #333;
+  transform: translateY(-2px);
+}
+
+.page-btn:active, #clearBtn:active {
+  transform: scale(0.95);
 }
 
 .genre-btn {
@@ -119,12 +191,21 @@ header {
   border-radius: 16px;
   cursor: pointer;
   font-size: 13px;
-  transition: all 0.2s;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .genre-btn:hover {
   background-color: var(--border-color);
   color: var(--text-color);
+}
+
+.genre-btn.active {
+  background-color: var(--primary);
+  color: #121212;
+  border-color: var(--primary);
+  transform: scale(1.08);
+  /* Updated shadow to match the gold accent */
+  box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
 }
 
 /* --- Main Layout --- */
@@ -146,7 +227,7 @@ header {
 }
 
 #toggleFiltersBtn {
-  display: block; /* Show by default on mobile */
+  display: block; 
 }
 
 /* --- Grid & Cards --- */
@@ -158,24 +239,50 @@ header {
 
 .card {
   background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
   border-radius: var(--radius);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s;
-  border: 1px solid var(--border-color);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s;
+  animation: popIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  cursor: pointer;
+}
+
+/* Stagger the first 12 cards dynamically */
+.card:nth-child(1) { animation-delay: 0.05s; }
+.card:nth-child(2) { animation-delay: 0.10s; }
+.card:nth-child(3) { animation-delay: 0.15s; }
+.card:nth-child(4) { animation-delay: 0.20s; }
+.card:nth-child(5) { animation-delay: 0.25s; }
+.card:nth-child(6) { animation-delay: 0.30s; }
+.card:nth-child(7) { animation-delay: 0.35s; }
+.card:nth-child(8) { animation-delay: 0.40s; }
+.card:nth-child(9) { animation-delay: 0.45s; }
+.card:nth-child(10) { animation-delay: 0.50s; }
+.card:nth-child(11) { animation-delay: 0.55s; }
+.card:nth-child(12) { animation-delay: 0.60s; }
+
+@keyframes popIn {
+  0% { opacity: 0; transform: translateY(30px) scale(0.9); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  z-index: 10;
 }
 
 .poster {
   width: 100%;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  cursor: pointer;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover .poster {
+  transform: scale(1.05);
 }
 
 .card-body {
@@ -183,6 +290,9 @@ header {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
+  background-color: var(--card-bg);
 }
 
 .meta {
@@ -202,6 +312,15 @@ header {
   color: var(--muted);
 }
 
+/* --- Heart Animation --- */
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  15% { transform: scale(1.4); color: #ff4757; }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.2); }
+  60% { transform: scale(1); }
+}
+
 .fav {
   background: none;
   border: none;
@@ -209,7 +328,16 @@ header {
   cursor: pointer;
   padding: 0;
   line-height: 1;
-  color: #fff; /* Ensures the outline heart is visible */
+  color: #fff;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.fav:hover {
+  transform: scale(1.2);
+}
+
+.fav.beat {
+  animation: heartBeat 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 /* --- Filters Panel --- */
@@ -228,6 +356,12 @@ header {
   color: var(--muted);
   padding: 0;
   line-height: 1;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.close-btn:hover {
+  color: var(--text-color);
+  transform: rotate(90deg);
 }
 
 .filters .genres {
@@ -243,6 +377,12 @@ header {
 
 #minRating {
   width: 100%;
+  accent-color: var(--primary);
+  cursor: grab;
+}
+
+#minRating:active {
+  cursor: grabbing;
 }
 
 /* Mobile Overlay Styles */
@@ -257,7 +397,7 @@ aside {
   z-index: 1000;
   box-shadow: -4px 0 15px rgba(0, 0, 0, 0.4);
   transform: translateX(100%);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
   overflow-y: auto;
   border-left: 1px solid var(--border-color);
 }
@@ -266,24 +406,28 @@ body.filters-open aside {
   transform: translateX(0);
 }
 
-/* Dark overlay for when filters are open on mobile */
-body.filters-open::before {
+body::before {
   content: '';
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 
-/* --- Modal --- */
+body.filters-open::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Enhanced Modal Pop-up Animation (3D Flip) --- */
 .modal {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   z-index: 2000;
   display: flex;
   align-items: center;
@@ -291,7 +435,11 @@ body.filters-open::before {
   padding: 16px;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
+  
+  /* Create a 3D space for the child elements to flip inside */
+  perspective: 1500px; 
+  
+  transition: opacity 0.3s ease, visibility 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .modal.open {
@@ -301,21 +449,36 @@ body.filters-open::before {
 
 .modal-card {
   background: var(--card-bg);
-  border-radius: var(--radius);
+  border-radius: 16px;
   max-width: 800px;
   width: 100%;
   max-height: 90vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75);
+  
+  /* Initial state: Rotated 90 degrees on the Y-axis (invisible edge-on) and slightly scaled down */
+  transform: rotateY(-90deg) scale(0.85);
+  transform-style: preserve-3d;
+  opacity: 0;
+  
+  /* The bouncy cubic-bezier makes the flip feel dynamic and weighty */
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal.open .modal-card {
+  /* Final state: Facing forward at full size */
+  transform: rotateY(0deg) scale(1);
+  opacity: 1;
 }
 
 .modal-poster {
-  display: none; /* Hide poster on small screens to save space */
+  display: none; 
 }
 
 .modal-content {
-  padding: 20px;
+  padding: 24px;
   overflow-y: auto;
 }
 
@@ -329,20 +492,16 @@ footer {
   font-size: 13px;
 }
 
-/* --- Desktop Styles (Media Query) --- */
+/* --- Desktop Styles --- */
 @media (min-width: 768px) {
   .main {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  /* Hide mobile-only buttons */
   #toggleFiltersBtn,
-  .filters-header {
-    display: none;
-  }
+  .filters-header { display: none; }
   
-  /* Reset filters panel for desktop */
   aside {
     position: sticky;
     top: 20px;
@@ -356,18 +515,13 @@ footer {
     height: auto;
   }
 
-  /* Remove body overlay on desktop */
-  body.filters-open::before {
-    display: none;
-  }
+  body::before { display: none; }
   
-  /* Modal layout on larger screens */
-  .modal-card {
-    flex-direction: row;
-  }
+  .modal-card { flex-direction: row; }
+  
   .modal-poster {
     display: block;
-    width: 300px;
+    width: 320px;
     flex-shrink: 0;
     object-fit: cover;
   }
@@ -377,25 +531,26 @@ footer {
 #modalott {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Spacing between logos */
+  gap: 10px;
   align-items: center;
 }
 
 .ott-link {
   display: inline-block;
-  background-color: var(--bg-color); /* Darker background for contrast */
+  background-color: var(--bg-color);
   border-radius: var(--radius);
   padding: 6px 8px;
-  transition: background-color 0.2s;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.3s;
   line-height: 1;
 }
 
 .ott-link:hover {
-  background-color: #333; /* Hover effect */
+  background-color: #333;
+  transform: translateY(-3px) scale(1.05);
 }
 
 .ott-logo {
-  height: 24px; /* Constrains logo height */
+  height: 24px;
   width: auto;
-  vertical-align: middle; /* Aligns logo nicely with text fallback */
+  vertical-align: middle;
 }
