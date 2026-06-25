@@ -2557,7 +2557,8 @@ const MOVIES = [
   overview: "Jake Sully and Neytiri face a dangerous new Na'vi faction as Pandora is drawn into another devastating conflict.",
   poster: "https://media2.firstshowing.net/firstshowing/img17/Avatarfireashposter3mainimage59.jpg",
   ott: [
-    { platform: "cineby", url: "https://www.cineby.sc/movie/83533" }
+    { platform: "cineby", url: "https://www.cineby.sc/movie/83533" },
+    {platform: "jiohotstar",url: "https://www.hotstar.com/in/movies/avatar-fire-and-ash/1271432166"}
   ],
   director: "James Cameron",
   music: "Simon Franglen",
@@ -2586,7 +2587,7 @@ const MOVIES = [
   rating: 8.2,
   genres: ["Science Fiction", "Fantasy", "Action", "Adventure", "English"],
   overview: "After stealing the Tesseract, Loki is captured by the Time Variance Authority and drawn into a mission that threatens the fate of the multiverse.",
-  poster: "",
+  poster: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db8b50ba-9699-488c-93ff-f73b2f528c57/dgftrad-b8faab34-cae8-47c9-8cfa-24dc911f3605.jpg/v1/fill/w_1280,h_1811,q_75,strp/loki_final_season_2_poster_by_artsywayne_dgftrad-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcL2RiOGI1MGJhLTk2OTktNDg4Yy05M2ZmLWY3M2IyZjUyOGM1N1wvZGdmdHJhZC1iOGZhYWIzNC1jYWU4LTQ3YzktOGNmYS0yNGRjOTExZjM2MDUuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5FA3GTYPKpY4zVk3bWOR9vchxxApTIbjxtW6WejiF1E",
   ott: [
     { platform: "jiohotstar", url: "https://www.hotstar.com/in/shows/loki/1260063451?search_query=loki" }
   ],
@@ -2673,6 +2674,222 @@ const MOVIES = [
   music: "",
   awards: [],
   episodes: 10
+},
+{
+    id: 178,
+    title: "Harry Potter and the Philosopher's Stone",
+    year: 2001,
+    rating: 7.7,
+    genres: ["Fantasy", "Adventure", "Family", "English"],
+    overview: "Harry Potter discovers he is a wizard and begins his journey at Hogwarts School of Witchcraft and Wizardry.",
+    poster: "https://tse3.mm.bing.net/th/id/OIP.WKiI7taWYPBvEvZYI-LhZwHaLH?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-sorcerers-stone/1971000398?search_query=harry" }],
+    director: "Chris Columbus",
+    music: "John Williams",
+    awards: ["Academy Award nominations"]
+  },
+
+  {
+    id: 179,
+    title: "Harry Potter and the Chamber of Secrets",
+    year: 2002,
+    rating: 7.4,
+    genres: ["Fantasy", "Adventure", "Mystery", "English"],
+    overview: "Harry returns to Hogwarts where a hidden chamber unleashes danger across the school.",
+    poster: "https://images.moviesanywhere.com/51d05e3bd56acb23ba41a4db49633d98/743b4280-5ea4-4468-8d63-d565d480bee2.jpg",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-chamber-of-secrets/1971000409?search_query=harry" }],
+    director: "Chris Columbus",
+    music: "John Williams",
+    awards: []
+  },
+
+  {
+    id: 180,
+    title: "Harry Potter and the Prisoner of Azkaban",
+    year: 2004,
+    rating: 7.9,
+    genres: ["Fantasy", "Adventure", "Drama", "English"],
+    overview: "Harry learns the truth about Sirius Black and uncovers secrets tied to his past.",
+    poster: "https://image.tmdb.org/t/p/original/sCrAJB4mwiUu9ymq0aRFWY6DcM1.jpg",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-prisoner-of-azkaban/1971000405?search_query=harry" }],
+    director: "Alfonso Cuarón",
+    music: "John Williams",
+    awards: ["Academy Award nominations"]
+  },
+
+  {
+    id: 181,
+    title: "Harry Potter and the Goblet of Fire",
+    year: 2005,
+    rating: 7.7,
+    genres: ["Fantasy", "Adventure", "Mystery", "English"],
+    overview: "Harry is unexpectedly selected for the dangerous Triwizard Tournament.",
+    poster: "https://image.tmdb.org/t/p/original/rmSDLpObFgPnybpi9aft3jPYT7E.jpg",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-goblet-of-fire/1971000404?search_query=harry" }],
+    director: "Mike Newell",
+    music: "Patrick Doyle",
+    awards: ["Academy Award nomination"]
+  },
+
+  {
+    id: 182,
+    title: "Harry Potter and the Order of the Phoenix",
+    year: 2007,
+    rating: 7.5,
+    genres: ["Fantasy", "Adventure", "Drama", "English"],
+    overview: "Harry leads a secret student group while dark forces rise within the wizarding world.",
+    poster: "https://tse3.mm.bing.net/th/id/OIP.l2FIM2u0lSvsge9FgsvKYgHaLH?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-order-of-the-phoenix/1971000408?search_query=harry" }],
+    director: "David Yates",
+    music: "Nicholas Hooper",
+    awards: []
+  },
+
+  {
+    id: 183,
+    title: "Harry Potter and the Half-Blood Prince",
+    year: 2009,
+    rating: 7.6,
+    genres: ["Fantasy", "Adventure", "Drama", "English"],
+    overview: "Harry and Dumbledore uncover Voldemort's past and prepare for the coming war.",
+    poster: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p176377_p_v8_aa.jpg",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-half-blood-prince/1971000403?search_query=harry" }],
+    director: "David Yates",
+    music: "Nicholas Hooper",
+    awards: ["Academy Award nomination"]
+  },
+
+  {
+    id: 184,
+    title: "Harry Potter and the Deathly Hallows – Part 1",
+    year: 2010,
+    rating: 7.7,
+    genres: ["Fantasy", "Adventure", "Drama", "English"],
+    overview: "Harry, Ron and Hermione leave Hogwarts to destroy Voldemort's Horcruxes.",
+    poster: "https://tse1.mm.bing.net/th/id/OIP.hrYWIVfR2Zv3_4M0ABZn1AHaKg?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-deathly-hallows-part-1/1971000406?search_query=harry" }],
+    director: "David Yates",
+    music: "Alexandre Desplat",
+    awards: []
+  },
+
+  {
+    id: 185,
+    title: "Harry Potter and the Deathly Hallows – Part 2",
+    year: 2011,
+    rating: 8.1,
+    genres: ["Fantasy", "Adventure", "Action", "English"],
+    overview: "The final battle for Hogwarts decides the fate of the wizarding world.",
+    poster: "https://tse3.mm.bing.net/th/id/OIP.uw7KApzSUyl3akVJs_viYgHaLG?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+    ott: [{ platform: "jiohotstar", url: "https://www.hotstar.com/in/movies/harry-potter-and-the-deathly-hallows-part-2/1971000407?search_query=harry" }],
+    director: "David Yates",
+    music: "Alexandre Desplat",
+    awards: ["Academy Award nominations"]
+  },
+  {
+  id: 186,
+  title: "How to Train Your Dragon",
+  year: 2025,
+  rating: 7.8,
+  genres: ["Fantasy", "Adventure", "Action", "Family", "English"],
+  overview: "On the island of Berk, a young Viking named Hiccup forms an unlikely friendship with Toothless, a feared Night Fury dragon, changing the future of both Vikings and dragons.",
+  poster: "https://www.cinemaclock.com/images/posters/1000x1500/30/how-to-train-your-dragon-2025-us-poster.jpg",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/movies/how-to-train-your-dragon/1271453262?search_query=harry"
+    },
+    {
+      platform: "prime",
+      url: "https://www.primevideo.com/detail/0HZVK3OPX76AGSJTHWGIRVU5HE?ref_=atv_dl_rdr"
+    }
+  ],
+  director: "Dean DeBlois",
+  music: "John Powell",
+  awards: [],
+  runtime: "125 min"
+},
+{
+  id: 187,
+  title: "Kenatha Kanom",
+  year: 2026,
+  rating: 8.1,
+  genres: ["Comedy", "Drama", "Satire", "Tamil"],
+  overview: "In a drought-hit village in Ramanathapuram, residents dig a well hoping to solve their water crisis, but instead uncover a prehistoric discovery that attracts government and archaeological intervention, changing the village forever.",
+  poster: "https://tse3.mm.bing.net/th/id/OIP.vIvvHVANdtAU_ArfsAVoBwHaK0?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/movies/kenatha-kanom/1271512959"
+    }
+  ],
+  director: "Suresh Sangaiah",
+  music: "Nivas K. Prasanna",
+  awards: [],
+  runtime: "116 min"
+},
+{
+  id: 188,
+  title: "Blast",
+  year: 2026,
+  rating: 8.0,
+  genres: ["Action", "Thriller", "Family", "Tamil"],
+  overview: "A humble middle-class family trained in martial arts finds themselves in a dangerous conflict after crossing paths with a ruthless gang, forcing them to fight together against overwhelming odds.",
+  poster: "https://tse4.mm.bing.net/th/id/OIP.EfWdaSLXh_JNp1kT77VHvwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+  ott: [
+    {
+      platform: "netflix",
+      url: "https://www.netflix.com/in/title/82188226"
+    }
+  ],
+  director: "Subash K. Raj",
+  music: "Ravi Basrur",
+  awards: [],
+  runtime: "143 min"
+},
+{
+  id: 189,
+  title: "Resort",
+  year: 2026,
+  rating: 7.4,
+  genres: ["Comedy", "Drama", "Romance", "Tamil"],
+  overview: "A room service worker at a luxury beachside resort dreams of becoming a professional chef while navigating workplace pressure, kitchen politics, friendship and personal growth inside the demanding hospitality world.",
+  poster: "https://gallery.123telugu.com/content/slideshows/2025/12/Jio-Hotstar10/images/Jio%20Hotstar%20(13).jpg",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/shows/resort/1271512845?search_query=resort"
+    }
+  ],
+  director: "Praveen Bennet",
+  music: "",
+  awards: [],
+  creator: "Vijay Kumar Rajendran",
+  runtime: "25 min",
+  type: "Web Series"
+},
+{
+  id: 190,
+  title: "Heart Beat",
+  year: 2024,
+  rating: 8.4,
+  genres: ["Medical Drama", "Romance", "Drama", "Tamil"],
+  overview: "Set inside RK Multispeciality Hospital, the series follows Reena and a group of doctors as they balance demanding medical careers, relationships, family conflicts and emotional challenges while navigating life inside the hospital.",
+  poster: "https://m.media-amazon.com/images/M/MV5BZTAzMjcxYzUtNjJmZC00MDE2LTkwYzItOTk5OWVmYmU3OGFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  ott: [
+    {
+      platform: "jiohotstar",
+      url: "https://www.hotstar.com/in/shows/heart-beat/1260168231?search_query=heart+beat"
+    }
+  ],
+  director: "Deepak Sundarrajan, Abdul Kabeez & Chidambaram Manivannan",
+  music: "Saran Raghavan",
+  awards: [],
+  creator: "Deepak Sundarrajan",
+  seasons: 2,
+  episodes: 200,
+  runtime: "18–30 min",
+  type: "Web Series"
 }
 
 ];
